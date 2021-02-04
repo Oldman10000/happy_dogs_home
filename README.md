@@ -120,6 +120,12 @@ Each page section has a clear function and purpose.
 
 # Skeleton
 
-This is a mobile first design using bootstrap. Each paragraph/image element 
+This is a mobile first design using bootstrap to adjust column number and positioning. On mobile each column will fill the screen horizontally while on larger devices we can fit more features into each horizontal space. 
 
 [Wireframe](assets/wireframe/wireframe.pdf)
+
+# Surface
+
+I am using a simple colour palette generated on [Coolers.co](www.coolers.co) which will ensure visual clarity. I have opted for a green theme as this represents nature and the outdoors which suits dogs well. [Green is also the second favourite colour for both men and women as well as the easiest for the eye to process.](https://images.websitebuilderexpert.com/wp-content/uploads/2020/06/23005313/color-psychology.jpg)
+
+My chosen font is Yusei Magic for the headings and Lato for the paragraphs. These are both taken from the google fonts collection. Yusei Magic has a handwritten feel and gives the viewer a friendly and homely impression. Lato pairs well with Yusei Magic, is easy to read and is a commonly used font online for larger of text for this reason.
