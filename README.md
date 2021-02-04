@@ -117,3 +117,9 @@ Each page section has a clear function and purpose.
 ### 7. Footer - Contact info and social
 
 * As is standard, we include our phone number, email address and place address on the bottom of the page. This is located immediately below the contact section so these two sections can be seen as one larger one. Opening hours also included as well as the social media links again.
+
+# Skeleton
+
+This is a mobile first design using bootstrap. Each paragraph/image element 
+
+[Wireframe](assets/wireframe/wireframe.pdf)
