@@ -129,8 +129,8 @@ This is a mobile first design using bootstrap to adjust column number and positi
 I am using a simple colour palette generated on [Coolers.co](www.coolers.co) which will ensure visual clarity. I have opted for a green theme as this represents nature and the outdoors which suits dogs well. [Green is also the second favourite colour for both men and women as well as the easiest for the eye to process.](https://images.websitebuilderexpert.com/wp-content/uploads/2020/06/23005313/color-psychology.jpg)
 
 <!-- Coolors Palette Widget -->
-      <script src="https://coolors.co/palette-widget/widget.js"></script>
-      <script data-id="04154570515466811">new CoolorsPaletteWidget("04154570515466811", ["386641","6a994e","a7c957","f2e8cf","bc4749"]); </script>
+
+![Colour Palette](/assets/photos/Dogs_Home_Pallette.png)
 
 My chosen font is Yusei Magic for the headings and Lato for the paragraphs. These are both taken from the google fonts collection. Yusei Magic has a handwritten feel and gives the viewer a friendly and homely impression. Lato pairs well with Yusei Magic, is easy to read and is a commonly used font online for larger of text for this reason.
 
