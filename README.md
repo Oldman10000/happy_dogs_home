@@ -133,3 +133,7 @@ I am using a simple colour palette generated on [Coolers.co](www.coolers.co) whi
       <script data-id="04154570515466811">new CoolorsPaletteWidget("04154570515466811", ["386641","6a994e","a7c957","f2e8cf","bc4749"]); </script>
 
 My chosen font is Yusei Magic for the headings and Lato for the paragraphs. These are both taken from the google fonts collection. Yusei Magic has a handwritten feel and gives the viewer a friendly and homely impression. Lato pairs well with Yusei Magic, is easy to read and is a commonly used font online for larger of text for this reason.
+
+# Problems overcome
+
+I had difficulties changing the colour of the navbar text elements on my style.css file. In the end I added inline CSS to the index.html file to override the Bootstrap navbar-dark stylings.

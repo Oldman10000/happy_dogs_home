@@ -1,3 +1,5 @@
+/*-----------Global Stylings----------*/
+
 * {
     margin: 0;
     padding: 0;
@@ -11,6 +13,14 @@ h1, h2 {
 p {
     font-family: 'Lato', sans-serif;
 }
+
+/*-----------Navbar Section----------*/
+
+.navbar {
+    background-color: #386641;
+}
+
+/*-----------Home Page Section----------*/
 
 .hero-image {
   background-image: url("../photos/beagles.jpg");
