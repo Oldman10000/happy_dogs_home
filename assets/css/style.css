@@ -70,3 +70,11 @@ p {
     padding: 5px 20px;
     color: #386641; 
 }
+
+/*-----------About Us Section----------*/
+
+#inge {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
