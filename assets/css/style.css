@@ -8,10 +8,12 @@
 
 h1, h2 {
     font-family: 'Yusei Magic', sans-serif;
+    color: #386641;
 }
 
 p {
     font-family: 'Lato', sans-serif;
+    color: #386641;
 }
 
 .heading {
@@ -72,6 +74,10 @@ p {
 }
 
 /*-----------About Us Section----------*/
+
+#about-container {
+    background-color: #f2e8cf;
+}
 
 #inge {
     height: 300px;
