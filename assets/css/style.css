@@ -78,3 +78,7 @@ p {
     width: 300px;
     border-radius: 50%;
 }
+
+.align-right {
+    text-align: right;
+}
