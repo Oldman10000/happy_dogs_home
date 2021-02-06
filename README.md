@@ -104,7 +104,7 @@ Each page section has a clear function and purpose.
 
 ### 4. Meet the dogs!
 
-* Pictures and information about our dogs. Initially this displays 3 dogs. On mobile the visitor initially sees only the photo but when clicking the picture a modal box is opened with the info included. There is scope for expansion on this section - this can link to a further page with all of our dogs included but for now is just a showcase.
+* Pictures and information about our dogs. There is scope for expansion on this section - this can link to a further page with all of our dogs included but for now is just a showcase.
 
 ### 5. Why Adopt?
 
