@@ -137,3 +137,5 @@ My chosen font is Yusei Magic for the headings and Lato for the paragraphs. Thes
 # Problems overcome
 
 I had difficulties changing the colour of the navbar text elements on my style.css file. In the end I added inline CSS to the index.html file to override the Bootstrap navbar-dark stylings.
+
+I had difficulty figuring out a way for the descriptions of the dogs to appear in a modal box in mobile/tablet form for smaller displays while appearing on the page below the image in desktop form. I found out this could be done using JavaScript, however as this is outside the scope of this project I have amended the page design so that the descriptions of the dogs will now appear on the page below the images on all displays. The structure and wireframe have been amended accordingly.
