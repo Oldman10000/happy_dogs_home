@@ -29,6 +29,10 @@ p {
     margin: 20px;
 }
 
+.section-header {
+    padding-top: 50px;
+}
+
 /*-----------Navbar Section----------*/
 
 .navbar {
