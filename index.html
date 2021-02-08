@@ -215,12 +215,73 @@
             </div>
         </section>
         <section id="contact">
-          <div class="container-fluid" id="contact-container">
-              <div class="heading">
+            <div class="container-fluid" id="contact-container">
+                <div class="heading">
                     <h1 class="section-header">Get in touch</h1>
-                    <p>Please feel free to ask us anything! We aim to resond to all enquiries within 24 hours. <br>*Required</p>
+                    <p>Please feel free to ask us anything! We aim to resond to all enquiries within 24 hours.
+                        <br>*Required</p>
                 </div>
-          </div>  
+
+                <!--Form element copied and amended as required from Bootstrap 4.5 components-->
+                
+                <form class="contact-form">
+                    <div class="form-group row">
+                        <label for="name" class="col-sm-2 col-form-label">Name*</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="name">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="email" class="col-sm-2 col-form-label">Email*</label>
+                        <div class="col-sm-10">
+                            <input type="email" class="form-control" id="email">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="tel" class="col-sm-2 col-form-label">Tel*</label>
+                        <div class="col-sm-10">
+                            <input type="tel" class="form-control" id="tel">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-sm-2">Enquiry Type</div>
+                        <div class="col-sm-10">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="gridCheck1">
+                                <label class="form-check-label" for="gridCheck1">
+                                    I want to adopt a dog!
+                                </label>
+                                <br>
+                                <input class="form-check-input" type="checkbox" id="gridCheck2">
+                                <label class="form-check-label" for="gridCheck1">
+                                    I want to sponsor a dog!
+                                </label>
+                                <br>
+                                <input class="form-check-input" type="checkbox" id="gridCheck3">
+                                <label class="form-check-label" for="gridCheck1">
+                                    I would like to visit!
+                                </label>
+                                <br>
+                                <input class="form-check-input" type="checkbox" id="gridCheck4">
+                                <label class="form-check-label" for="gridCheck1">
+                                    Other (please specify below)
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="info" class="col-sm-2 col-form-label">Additional Info</label>
+                        <div class="col-sm-10">
+                            <textarea class="form-control" id="info" rows="3"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-sm-10">
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
         </section>
     </div>
     <footer>
