@@ -95,3 +95,10 @@ p {
 .align-right {
     text-align: right;
 }
+
+/*----------Why Adopt Section----------*/
+
+.adopt-photos {
+    height: 300px;
+    width: 300px;
+}
