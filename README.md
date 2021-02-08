@@ -135,7 +135,6 @@ I am using a simple colour palette generated on [Coolers.co](www.coolers.co) whi
 My chosen font is Yusei Magic for the headings and Lato for the paragraphs. These are both taken from the google fonts collection. Yusei Magic has a handwritten feel and gives the viewer a friendly and homely impression. Lato pairs well with Yusei Magic, is easy to read and is a commonly used font online for larger of text for this reason.
 
 # Problems overcome
-
-I had difficulties changing the colour of the navbar text elements on my style.css file. In the end I added inline CSS to the index.html file to override the Bootstrap navbar-dark stylings.
+itially I added inline CSS to the index.html file to override the Bootstrap navbar-dark stylings. Later, I found a way to do this on the seperate CSS file using greater specificity to override the bootstrap stylings.
 
 I had difficulty figuring out a way for the descriptions of the dogs to appear in a modal box for mobile/tablet displays while appearing on the page below the image on desktop displays. I found out this could be done using JavaScript, however as this is outside the scope of this project I have amended the page design so that the descriptions of the dogs will now appear on the page below the images on all displays. The structure and wireframe have been amended accordingly.
