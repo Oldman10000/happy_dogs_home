@@ -105,10 +105,31 @@ p {
     margin: 20px;
 }
 
-#why-adopt h2, p {
+#why-adopt, h2 p {
     text-align: center;
 }
 
 #why-adopt h2 {
     padding-bottom: 10px;
+}
+
+/*----------Footer----------*/
+
+footer p {
+    text-align: center;
+}
+
+.social-icons {
+    text-align: center;
+    margin: auto;
+}
+
+.social-icons a {
+    color: #386641;
+    font-size: 2em;
+    padding: 25px;
+}
+
+.social-icons a:hover {
+    color: #6a994e;
 }
