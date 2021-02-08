@@ -101,5 +101,13 @@ p {
 .adopt-photos {
     height: 300px;
     width: 300px;
-    margin: auto;
+    margin: 20px;
+}
+
+#why-adopt h2, p {
+    text-align: center;
+}
+
+#why-adopt h2 {
+    padding-bottom: 10px;
 }
