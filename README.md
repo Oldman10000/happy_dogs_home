@@ -130,7 +130,7 @@ I am using a simple colour palette generated on [Coolers.co](www.coolers.co) whi
 
 <!-- Coolors Palette Widget -->
 
-![Colour Palette](/assets/photos/Dogs_Home_Pallette.png)
+![Colour Palette](/assets/images/Dogs_Home_Pallette.png)
 
 My chosen font is Yusei Magic for the headings and Lato for the paragraphs. These are both taken from the google fonts collection. Yusei Magic has a handwritten feel and gives the viewer a friendly and homely impression. Lato pairs well with Yusei Magic, is easy to read and is a commonly used font online for larger of text for this reason.
 
