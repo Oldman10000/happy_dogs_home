@@ -71,6 +71,10 @@ p {
     border-bottom: 2px solid rgba(242,232,207,0.9);
 }
 
+.navbar-dark .navbar-nav .nav-link.active {
+    color: #f2e8cf;
+}
+
 /*-----------Home Page Section----------*/
 
 .hero-image {
