@@ -34,6 +34,10 @@ p {
     padding-bottom: 20px;
 }
 
+#background-coloring {
+    background-color: #f2e8cf;
+}
+
 /*-----------Navbar Section----------*/
 
 .navbar {
@@ -88,9 +92,6 @@ p {
 
 /*-----------About Us Section----------*/
 
-#about-container {
-    background-color: #f2e8cf;
-}
 
 .align-right {
     text-align: right;
