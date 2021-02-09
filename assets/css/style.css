@@ -235,6 +235,10 @@ a:hover {
 
 /*----------Footer----------*/
 
+footer {
+    background-color: rgba(242,232,207,0.5);
+}
+
 footer p {
     text-align: center;
     padding-top: 30px;
