@@ -23,9 +23,9 @@ p {
 }
 
 .circular-image {
-    height: 300px;
-    width: 300px;
     border-radius: 50%;
+    width: 100%;
+    height: auto;
 }
 
 .section-header {
@@ -159,13 +159,28 @@ p {
     border-radius: 50%;
 }
 
-#about-us .circular-image {
-    width: 100%;
-    height: auto;
-}
-
 .bottom-text {
     margin-top: 30px;
+}
+
+/*----------Meet the Dogs Section----------*/
+
+#meet-the-dogs h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.meet-image {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    padding: 5px;
+    border: 2px solid #386641;
+    border-radius: 50%;
+}
+
+#meet-the-dogs p {
+    margin-top: 20px;
 }
 
 /*----------Why Adopt Section----------*/
