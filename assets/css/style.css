@@ -63,16 +63,38 @@ p {
 .navbar-dark .navbar-nav .nav-link {
     color: rgba(242,232,207,0.5);
     font-family: 'Lato', sans-serif;
-    border-bottom: 2px solid rgba(242,232,207,0);
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
     color: rgba(242,232,207,0.9);
-    border-bottom: 2px solid rgba(242,232,207,0.9);
 }
 
 .navbar-dark .navbar-nav .nav-link.active {
     color: #f2e8cf;
+}
+
+.nav-social-icons {
+    padding: 0.5rem;
+}
+
+.nav-social-icons a {
+    color: rgba(242,232,207,0.5); 
+    font-size: 1.2em;
+    padding: 10px;
+}
+
+.nav-social-icons a:hover {
+    color: rgba(242,232,207,0.9);
+}
+
+@media only screen and (max-width: 992px) {
+    .nav-social-icons {
+    padding-left: 0;
+}
+
+.nav-social-icons a {
+    padding-left: 0;
+}
 }
 
 /*-----------Home Page Section----------*/
