@@ -199,6 +199,27 @@ p {
     padding-bottom: 10px;
 }
 
+/*----------Contact Form Section----------*/
+
+#contact {
+    padding-bottom: 25px;
+}
+
+#contact .heading p {
+    padding: 20px 0;
+}
+
+.btn-primary {
+    color: #f2e8cf;
+    background-color: #386641;
+    border-color: #386641;
+}
+
+.btn-primary:hover {
+    background-color: #bc4749;
+    border-color: #bc4749;
+}
+
 /*----------Footer----------*/
 
 footer p {
