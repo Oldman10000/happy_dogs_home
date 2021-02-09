@@ -26,7 +26,6 @@ p {
     height: 300px;
     width: 300px;
     border-radius: 50%;
-    margin: 20px;
 }
 
 .section-header {
@@ -148,6 +147,25 @@ p {
 
 .align-right {
     text-align: right;
+}
+
+.about-us-image {
+    min-width: 250px;
+    max-width: 500px;
+    height: auto;
+    margin: auto;
+    padding: 10px;
+    border: 5px solid #386641;
+    border-radius: 50%;
+}
+
+#about-us .circular-image {
+    width: 100%;
+    height: auto;
+}
+
+.bottom-text {
+    margin-top: 30px;
 }
 
 /*----------Why Adopt Section----------*/
