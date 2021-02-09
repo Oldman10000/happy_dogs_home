@@ -224,11 +224,16 @@ p {
 
 footer p {
     text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+footer .social-icons p {
+    padding-bottom: 0;
 }
 
 .social-icons {
     text-align: center;
-    margin: auto;
 }
 
 .social-icons a {
