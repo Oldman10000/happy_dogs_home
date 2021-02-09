@@ -37,6 +37,14 @@ p {
     background-color: #f2e8cf;
 }
 
+a {
+    color: #bc4749;
+}
+
+a:hover {
+    color: #bc4749;
+}
+
 /*-----------Navbar Section----------*/
 
 .navbar {
