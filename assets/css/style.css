@@ -44,6 +44,8 @@ a:hover {
     color: #bc4749;
 }
 
+/*--Divider copied from https://templatefor.net/best-css-dividers/--*/
+
 .divider{
   display: flex;
   flex-direction: row;
