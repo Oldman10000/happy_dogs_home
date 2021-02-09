@@ -257,8 +257,22 @@ a:hover {
 }
 
 .btn-primary:hover {
+    color: #f2e8cf;
     background-color: #bc4749;
     border-color: #bc4749;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active {
+    color: #f2e8cf;
+    background-color: #bc4749;
+    border-color: #bc4749;
+}
+
+.btn-primary:focus {
+    color: #f2e8cf;
+    background-color: #bc4749;
+    border-color: #bc4749;
+    box-shadow: 0 0 0 0.2rem rgb(188 71 73 / 50%);
 }
 
 /*----------Footer----------*/
