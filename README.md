@@ -49,7 +49,7 @@ Increase social media following | 4 | 4
 Blog/updates/mailing list | 3 | 2
 Encourage visitors to adopt | 5 | 5
 
-# Scope 
+## Scope 
 
 The primary objective of this site is to create and develop an online presence for the new charity. This means that it is initially created as a Minimum Viable Product. This allows us to begin with the most important aspects and expand from there. We can also test what works and what doesn't. Therefore it is also sensible to provide the opportunity for visitors to give feedback so we can improve existing features and find out what new features are needed.
 
@@ -78,7 +78,7 @@ Future Features:
 * General operational updates
 * Mailing list
 
-# Structure 
+## Structure 
 
 The website initially functions as a single scrolling page in a linear structure. This is the most simple and accessible way of navigation and information display. This is ideal for this site as we are looking to attract as wide a demographic of visitors as possible. We want visitors to be engaged immediately and for them not to be overwhelmed. There are nav links on the top of the screen, which take the user to different sections of the page. This will be fixed to the top of the screen when scrolling to enable the user to access them at any time.
 
@@ -118,13 +118,13 @@ Each page section has a clear function and purpose.
 
 * As is standard, we include our phone number, email address and place address on the bottom of the page. This is located immediately below the contact section so these two sections can be seen as one larger one. Opening hours also included as well as the social media links again.
 
-# Skeleton
+## Skeleton
 
-This is a mobile first design using bootstrap to adjust column number and positioning. On mobile each column will fill the screen horizontally while on larger devices we can fit more features into each horizontal space. 
+This is a mobile first design using bootstrap to adjust column numbers/sizes and positioning. On mobile each column will fill the screen horizontally while on larger devices we can fit more features into each horizontal space. 
 
-[Wireframe](assets/wireframe/wireframe.pdf)
+[Wireframe for mobile, tablet and desktop](assets/wireframe/wireframe.pdf)
 
-# Surface
+## Surface
 
 I am using a simple colour palette generated on [Coolers.co](www.coolers.co) which will ensure visual clarity. I have opted for a green theme as this represents nature and the outdoors which suits dogs well. [Green is also the second favourite colour for both men and women as well as the easiest for the eye to process.](https://images.websitebuilderexpert.com/wp-content/uploads/2020/06/23005313/color-psychology.jpg)
 
@@ -132,9 +132,12 @@ I am using a simple colour palette generated on [Coolers.co](www.coolers.co) whi
 
 ![Colour Palette](/assets/images/Dogs_Home_Pallette.png)
 
-My chosen font is Yusei Magic for the headings and Lato for the paragraphs. These are both taken from the google fonts collection. Yusei Magic has a handwritten feel and gives the viewer a friendly and homely impression. Lato pairs well with Yusei Magic, is easy to read and is a commonly used font online for larger of text for this reason.
+The hero image with the playing Beagles is not only eye catching for a visitor, but the colours also generally match and pair well with the colour pallette used which gives the site good visual flow from the beginning.
+
+My chosen font is Yusei Magic for the headings and Lato for the paragraphs. These are both taken from the Google Fonts collection. Yusei Magic has a handwritten feel and gives the viewer a friendly and homely impression. Lato pairs well with Yusei Magic, is easy to read and is a commonly used font online for larger of text for this reason.
 
 # Problems overcome
-itially I added inline CSS to the index.html file to override the Bootstrap navbar-dark stylings. Later, I found a way to do this on the seperate CSS file using greater specificity to override the bootstrap stylings.
+
+I had difficulty changing the text colours and stylings on the navbar as these were defined by the bootstrap CSS file. Initially I added inline CSS to the index.html file to override the Bootstrap navbar-dark stylings. Later, I found a way to do this on the seperate CSS file using greater specificity to override the bootstrap stylings. The Chrome developer tools were very helpful in demonstrating exactly which elements needed to be overridden to get the look that I wanted.
 
 I had difficulty figuring out a way for the descriptions of the dogs to appear in a modal box for mobile/tablet displays while appearing on the page below the image on desktop displays. I found out this could be done using JavaScript, however as this is outside the scope of this project I have amended the page design so that the descriptions of the dogs will now appear on the page below the images on all displays. The structure and wireframe have been amended accordingly.

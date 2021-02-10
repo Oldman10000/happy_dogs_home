@@ -44,7 +44,7 @@ a:hover {
     color: #bc4749;
 }
 
-/*--Divider copied from https://templatefor.net/best-css-dividers/--*/
+/*--Divider copied from https://templatefor.net/best-css-dividers/ --*/
 
 .divider{
   display: flex;
@@ -73,6 +73,8 @@ a:hover {
 }
 
 /*-----------Navbar Section----------*/
+
+/*--All navbar classes are overwritten from Bootstrap classes. The new colouring and font matches the colour pallette for the site better than the Bootstrap default--*/
 
 .navbar {
     background-color: #386641;
@@ -152,8 +154,6 @@ a:hover {
     border-radius: 10px;
     width: 200px;
     height: 120px;
-    font-family: 'Lato', sans-serif;
-    font-weight: 700;
 }
 
 .adopt-dog {
@@ -250,6 +250,8 @@ a:hover {
     padding: 20px 0;
 }
 
+/*--All button classes are overwritten from Bootstrap classes. The new colouring matches the colour pallette for the site better than the Bootstrap default--*/
+  
 .btn-primary {
     color: #f2e8cf;
     background-color: #386641;
