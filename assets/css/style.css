@@ -138,6 +138,7 @@ a:hover {
 .hero-image {
   background-image: url("../images/beagles.jpg");
   height: 80vh;
+  width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -145,15 +146,16 @@ a:hover {
 }
 
 .adopt {
-    position: absolute;
-    bottom: 50px;
-    left: 50px;
     background-color: rgba(242,232,207,0.8);
     color: #386641;
-    border: 5px rgb(56,102,65,0.8) solid; 
+    border: 5px rgb(56,102,65,0.8) solid;
     border-radius: 10px;
-    width: 200px;
-    height: 120px;
+    width: 50%;
+    height: 20%;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .adopt-dog {
