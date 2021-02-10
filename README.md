@@ -15,39 +15,34 @@ I am looking to attract as wide a range of visitors as possible. Most will be pe
 
 ### User Stories
 
-I am a first time visitor and I want:
+I am a visitor and I want:
 
 * To find out what this website is for
-* To know where the charity is located
 * The site to be easy to 'learn', navigate and use 
 * To see lots of pictures of happy dogs
+* To see what dogs are available
 * To be able to easily contact the charity in order to make an adoption or make an enquiry
 * To follow the charity on social media
 * To use the site on mobile/tablet/desktop
-
-I am a returning visitor and I want:
-
-* To see what dogs are available
-* To see any updates (in operational procedure/covid changes etc)
+* To know where the charity is located
 
 I am the website owner and I want:
 
-* Visitors to have a positive first impression
-* Visitors to want to make a donation
-* People to want to make an adoption
+* Visitors to want to make a donation or adoption
 * To receive feedback on the new site
-* For visitors to subscribe to blog or mailing list to keep them engaged
 
 ### Strategy Trade-off table 
+
+Below I have created a trade-off table which directly addresses user stories above as well as further features which may not be viable now, but could be useful in future.
 
 Opportunity/Problem | Importance | Viability
 --------------------|------------|-----------
 Create an online presence | 5 | 5
 Show off our dogs | 5 | 5
+Encourage visitors to adopt | 5 | 5
 Provide means to donate online | 4 | 1
 Increase social media following | 4 | 4
 Blog/updates/mailing list | 3 | 2
-Encourage visitors to adopt | 5 | 5
 
 ## Scope 
 
@@ -122,7 +117,7 @@ Each page section has a clear function and purpose.
 
 This is a mobile first design using bootstrap to adjust column numbers/sizes and positioning. On mobile each column will fill the screen horizontally while on larger devices we can fit more features into each horizontal space. 
 
-[Wireframe for mobile, tablet and desktop](assets/wireframe/wireframe.pdf)
+[Wireframe for mobile, tablet and desktop](documentation/wireframe.pdf)
 
 ## Surface
 
@@ -130,7 +125,7 @@ I am using a simple colour palette generated on [Coolers.co](www.coolers.co) whi
 
 <!-- Coolors Palette Widget -->
 
-![Colour Palette](/assets/images/Dogs_Home_Pallette.png)
+![Colour Palette](documentation/Dogs_Home_Pallette.png)
 
 The hero image with the playing Beagles is not only eye catching for a visitor, but the colours also generally match and pair well with the colour pallette used which gives the site good visual flow from the beginning.
 
