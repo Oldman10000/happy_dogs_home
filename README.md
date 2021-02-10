@@ -57,22 +57,6 @@ The strategy trade-off table above helps us work out what we can and can't imple
 
 Allowing people to donate online and adding operational updates/blog is outside my current skillset, however these are important features which can be looked at in future.
 
-With this in mind I have separated current features in order of importance and listed off future features that could potentially be added at a later stage.
-
-Starting features:
-
-* Introduction to the charity
-* Photos and descriptions of our dogs
-* 'Why Adopt' section encouraging people to adopt
-* Contact Us form and address/contact information. Social media links.
-
-Future Features:
-
-* Payment/Donation/Sponsorship options
-* Blog
-* General operational updates
-* Mailing list
-
 ## Structure 
 
 The website initially functions as a single scrolling page in a linear structure. This is the most simple and accessible way of navigation and information display. This is ideal for this site as we are looking to attract as wide a demographic of visitors as possible. We want visitors to be engaged immediately and for them not to be overwhelmed. There are nav links on the top of the screen, which take the user to different sections of the page. This will be fixed to the top of the screen when scrolling to enable the user to access them at any time.
@@ -131,8 +115,51 @@ The hero image with the playing Beagles is not only eye catching for a visitor, 
 
 My chosen font is Yusei Magic for the headings and Lato for the paragraphs. These are both taken from the Google Fonts collection. Yusei Magic has a handwritten feel and gives the viewer a friendly and homely impression. Lato pairs well with Yusei Magic, is easy to read and is a commonly used font online for larger of text for this reason.
 
+# Features
+
+## Existing Features
+
+* Introduction to the charity
+* Photos and descriptions of our dogs
+* 'Why Adopt' section encouraging people to adopt
+* Contact Us form and address/contact information
+* Social Media Links
+* Responsive design which makes the content attractive and easily read at any screen size
+* Navbar with scrollspy component which helps the user navigate around the page and know where on the page they are at any time
+
+## Future Features
+
+* Payment/Donation/Sponsorship options
+* Blog
+* General operational updates
+* Mailing list
+* Carousel component added to dog profile photos to show off more pictures of each dog
+
+# Technologies used
+
+## Languages Used
+
+* HTML5
+* CSS3
+
+## Frameworks, Libraries & Programs Used
+
+* [Bootstrap v4.5](https://getbootstrap.com/docs/4.5/getting-started/introduction/) - This was used to assist with general responsiveness and styling and more specifically for the navbar, scrollspy, grid layout and contact form
+* [Fontawesome](https://fontawesome.com/) - This was used for all icons on the page. These were the Paw icon used in the header and dividers, the Home icon for the home button in the navbar and the bone icon used in the Why Adopt section
+* [Google Fonts](https://fonts.google.com/) - I used the fonts Yusei Magic and Lato
+* [Git](https://git-scm.com/) - Used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub
+* [Github](https://github.com/) - GitHub is used to store the projects code after being pushed from Git
+* [Balsamiq](https://balsamiq.com/) - Balsamiq was used to create the [wireframe](documentation/wireframe.pdf) during the design process
+* MS Paint - Used to resize and crop images used
+
+## Other
+
+* [Coolers](https://coolors.co/) to generate the colour pallette
+* [Colorcodehex](https://www.colorcodehex.com/hex-to-rgb.html) to convert hex colours to rgb colours for some translucent elements
+
+
 # Problems overcome
 
-I had difficulty changing the text colours and stylings on the navbar as these were defined by the bootstrap CSS file. Initially I added inline CSS to the index.html file to override the Bootstrap navbar-dark stylings. Later, I found a way to do this on the seperate CSS file using greater specificity to override the bootstrap stylings. The Chrome developer tools were very helpful in demonstrating exactly which elements needed to be overridden to get the look that I wanted.
+* I had difficulty changing the text colours and stylings on the navbar as these were defined by the bootstrap CSS file. Initially I added inline CSS to the index.html file to override the Bootstrap navbar-dark stylings. Later, I found a way to do this on the seperate CSS file using greater specificity to override the bootstrap stylings. The Chrome developer tools were very helpful in demonstrating exactly which elements needed to be overridden to get the look that I wanted.
 
-I had difficulty figuring out a way for the descriptions of the dogs to appear in a modal box for mobile/tablet displays while appearing on the page below the image on desktop displays. I found out this could be done using JavaScript, however as this is outside the scope of this project I have amended the page design so that the descriptions of the dogs will now appear on the page below the images on all displays. The structure and wireframe have been amended accordingly.
+* I had difficulty figuring out a way for the descriptions of the dogs to appear in a modal box for mobile/tablet displays while appearing on the page below the image on desktop displays. I found out this could be done using JavaScript, however as this is outside the scope of this project I have amended the page design so that the descriptions of the dogs will now appear on the page below the images on all displays. The structure and wireframe have been amended accordingly.
