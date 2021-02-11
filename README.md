@@ -68,7 +68,7 @@ The website initially functions as a single scrolling page in a linear structure
 
 The top navigation links will change colour when that section is active and upon hovering to provide the user with simple visual feedback on where they are and how to get to where they want to go within the site. There are also clear dividers and headings for each section.
 
-The submit button in the contact section also changes colour when hovering and provides feedback to the user once the form has been submitted. If there is any issue with what has been submitted i.e. a required field has not been filled in then this information will be clear.
+The submit button in the contact section also changes colour when hovering. If there is any issue with what has been submitted i.e. a required field has not been filled in then this information will be clear.
 
 On tablet and mobile devides the nav link is compressed to the hamburger style menu as standard on smaller devices. It also includes social media links so these have maximum visiblity.
 
@@ -242,7 +242,7 @@ My chosen font is Yusei Magic for the headings and Lato for the paragraphs. Thes
 
 * Friends and family asked to check usability on their Apple mobile, laptop, desktop and tablet devices, particularly to check usability on Safari browser
 
-* Browsers checked were Chrome, Firefox Edge, Opera and Safari on all device types.
+* Browsers checked were Chrome, Firefox, Edge, Opera and Safari on all device types
 
 ### Owner Goals
 
