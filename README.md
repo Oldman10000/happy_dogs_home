@@ -17,19 +17,19 @@ I am looking to attract as wide a range of visitors as possible. Most will be pe
 
 I am a visitor and I want:
 
-* To find out what this website is for
-* The site to be easy to 'learn', navigate and use 
-* To see lots of pictures of happy dogs
-* To see what dogs are available
-* To be able to easily contact the charity in order to make an adoption or make an enquiry
-* To follow the charity on social media
-* To use the site on mobile/tablet/desktop
-* To know where the charity is located
+1. To find out what this website is for
+2. The site to be easy to 'learn', navigate and use 
+3. To see lots of pictures of happy dogs
+4. To see what dogs are available
+5. To be able to easily contact the charity in order to make an adoption or make an enquiry
+6. To follow the charity on social media
+7. To use the site on mobile/tablet/desktop
+8. To know where the charity is located
 
 I am the website owner and I want:
 
-* Visitors to want to make a donation or adoption
-* To receive feedback on the new site
+1. Visitors to want to make a donation or adoption
+2. To receive feedback on the new site
 
 ### Strategy Trade-off table 
 
@@ -154,6 +154,54 @@ My chosen font is Yusei Magic for the headings and Lato for the paragraphs. Thes
 * [Coolers](https://coolors.co/) to generate the colour pallette
 * [Colorcodehex](https://www.colorcodehex.com/hex-to-rgb.html) to convert hex colours to rgb colours for some translucent elements
 * [TinyPng](https://tinypng.com/) to compress images to smaller file sizes
+
+# Testing
+
+## User Story Testing
+
+### Visitor Goals
+
+1. I want to find out what this website is for
+    - Visitors are instantly greeted by a large hero image of playing dogs.
+    - There is a large button at the top of the page reading "I want to adopt a dog"
+    - The hero image covers only 80% of the viewport size. This allows the visitor to see the top of the "About Us" section below the hero image, which invites them to scroll down and find out more.
+    
+        ![Screenshot](documentation/UserStories1.jpg)
+
+2. I want the site to be easy to 'learn', navigate and use
+    - The site is a linear structure with everything located on one page. This is easy to navigate on all devices.
+    - The visitor has three options from the home page.
+        - They can either scroll down into the 'About Us' section, the title of which is already visible.
+        - They can use the navigation bar/hamburger menu to find more sections in the site. This is located at the top of the page as standard.
+        - They can hit the large button in the hero image "I WANT TO ADOPT A DOG". Not only is this a clear visual indicator of what the site is for, but also takes the user to the contact section where they can enquire about adopting a dog.
+
+3. I want to see lots of pictures of happy dogs
+    - Visitors are instantly greeted by a large hero image of playing dogs.
+    - There are further images of dogs all through the site and in each section except for the contact section.
+
+4. I want to see what dogs are available
+    - We have a 'Meet the Dogs' section advertising the dogs we currently have.
+    - Each dog has a profile section with a picture and short description.
+    - Each profile section contains a link to the contact page so the visitor can quickly and easily enquire about a particular dog.
+
+        ![Screenshot2](documentation/UserStories2.jpg)
+
+5. I want to be easily able to contact the charity in order to make an adoption or make other enquiry.
+    - We have a contact section at the bottom of the page.
+    - This section allows the user to enter their basic contact information (name, email, telephone). It also allows the user to specify what they want to ask about as well as add any further information in a textbox.
+    - There are several links to this section on the page.
+        - In the navigation menu "contact us"
+        - The 'I WANT TO ADOPT A DOG' button on the hero image takes the user directly to the contact section.
+        - There is a link to the contact section in the 'About Us' section.
+        - There are links to the contact section under each dog profile in the 'Meet the Dogs!' section.
+    
+        ![Screenshot3](documentation/UserStories3.jpg)
+
+6. I want to be able to follow the charity on social media
+    - Social media links are displayed on the navbar
+    - Social media links are displayed on the footer
+
+
 
 # Problems overcome
 
