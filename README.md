@@ -194,13 +194,14 @@ My chosen font is Yusei Magic for the headings and Lato for the paragraphs. Thes
         - The 'I WANT TO ADOPT A DOG' button on the hero image takes the user directly to the contact section.
         - There is a link to the contact section in the 'About Us' section.
         - There are links to the contact section under each dog profile in the 'Meet the Dogs!' section.
-    
+
         ![Screenshot3](documentation/UserStories3.jpg)
 
 6. I want to be able to follow the charity on social media
     - Social media links are displayed on the navbar
     - Social media links are displayed on the footer
 
+        ![Screenshot4](documentation/UserStories4.jpg)
 
 
 # Problems overcome
