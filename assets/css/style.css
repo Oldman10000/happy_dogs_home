@@ -42,6 +42,7 @@ a {
 
 a:hover {
     color: #bc4749;
+    text-transform: underline;
 }
 
 /*--All button classes are overwritten from Bootstrap classes. The new colouring matches the colour pallette for the site better than the Bootstrap default--*/
@@ -143,7 +144,10 @@ a:hover {
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
-    color: rgba(242,232,207,1);
+    text-decoration: underline;
+    color: #f2e8cf;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.1em;
 }
 
 .navbar-dark .navbar-nav .nav-link.active {
@@ -161,7 +165,7 @@ a:hover {
 }
 
 .nav-social-icons a:hover {
-    color: rgba(242,232,207,1);
+    color: #f2e8cf;
 }
 
 @media only screen and (max-width: 992px) {
