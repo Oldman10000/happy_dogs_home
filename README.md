@@ -151,12 +151,9 @@ My chosen font is Yusei Magic for the headings and Lato for the paragraphs. Thes
 * [Github](https://github.com/) - GitHub is used to store the projects code after being pushed from Git
 * [Balsamiq](https://balsamiq.com/) - Balsamiq was used to create the [wireframe](documentation/wireframe.pdf) during the design process
 * MS Paint - Used to resize and crop images used
-
-## Other
-
 * [Coolers](https://coolors.co/) to generate the colour pallette
 * [Colorcodehex](https://www.colorcodehex.com/hex-to-rgb.html) to convert hex colours to rgb colours for some translucent elements
-
+* [TinyPng](https://tinypng.com/) to compress images to smaller file sizes
 
 # Problems overcome
 
