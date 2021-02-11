@@ -166,7 +166,7 @@ My chosen font is Yusei Magic for the headings and Lato for the paragraphs. Thes
     - There is a large button at the top of the page reading "I want to adopt a dog"
     - The hero image covers only 80% of the viewport size. This allows the visitor to see the top of the "About Us" section below the hero image, which invites them to scroll down and find out more.
     
-        ![Screenshot](documentation/UserStories1.jpg)
+        ![Hero Image Screenshot](documentation/UserStories1.jpg)
 
 2. I want the site to be easy to 'learn', navigate and use
     - The site is a linear structure with everything located on one page. This is easy to navigate on all devices.
@@ -174,6 +174,11 @@ My chosen font is Yusei Magic for the headings and Lato for the paragraphs. Thes
         - They can either scroll down into the 'About Us' section, the title of which is already visible.
         - They can use the navigation bar/hamburger menu to find more sections in the site. This is located at the top of the page as standard.
         - They can hit the large button in the hero image "I WANT TO ADOPT A DOG". Not only is this a clear visual indicator of what the site is for, but also takes the user to the contact section where they can enquire about adopting a dog.
+    - The navbar is fixed to the top of the page so the user can always navigate back to either a previous section or find the section they are looking for.
+    - The navigation links have clear and unambiguous meanings so the user knows exactly what they are likely to find in each section.
+    - If the user fills a section of the contact form incorrectly or leaves a required input blank, they will receive an error message when attempting to submit.
+    ![Contact form failure screenshot](documentation/UserStories5.jpg)
+    - Once the form has been successfully submitted, the page refreshes back to the top so the user knows that it was successful.
 
 3. I want to see lots of pictures of happy dogs
     - Visitors are instantly greeted by a large hero image of playing dogs.
@@ -184,7 +189,7 @@ My chosen font is Yusei Magic for the headings and Lato for the paragraphs. Thes
     - Each dog has a profile section with a picture and short description.
     - Each profile section contains a link to the contact page so the visitor can quickly and easily enquire about a particular dog.
 
-        ![Screenshot2](documentation/UserStories2.jpg)
+        ![Meet the dogs screenshot](documentation/UserStories2.jpg)
 
 5. I want to be easily able to contact the charity in order to make an adoption or make other enquiry.
     - We have a contact section at the bottom of the page.
@@ -195,15 +200,35 @@ My chosen font is Yusei Magic for the headings and Lato for the paragraphs. Thes
         - There is a link to the contact section in the 'About Us' section.
         - There are links to the contact section under each dog profile in the 'Meet the Dogs!' section.
 
-        ![Screenshot3](documentation/UserStories3.jpg)
+        ![Contact form screenshot](documentation/UserStories3.jpg)
 
 6. I want to be able to follow the charity on social media
-    - Social media links are displayed on the navbar
-    - Social media links are displayed on the footer
+    - Social media links are displayed on the navbar.
+    - Social media links are displayed on the footer.
 
-        ![Screenshot4](documentation/UserStories4.jpg)
+        ![Social media screenshot](documentation/UserStories4.jpg)
 
+7. I want to use the site on mobile/tablet/desktop
+    - The site is built with responsive design in mind. Bootstrap grid is used for most elements in the main section to keep the layout tidy and easy to digest.
+    - On smaller devices each element follows on from the next with pictures spaced between paragraph elements to keep visual appeal.
+    - On larger devices elements tend to be more spaced out next to each other as this has greater visual clarity on a larger display.
 
+8. I want to know where the charity is located
+    - Our address is in the footer section as standard for most websites. Our opening hours are also visible in this section.
+
+        ![Footer screenshot](documentation/UserStories6.jpg)
+
+### Owner Goals
+
+1. I want visitors to want to make a donation or adoption
+    - We have plenty of pictures of happy and healthy looking dogs which should appeal to any visitor.
+    - There is a 'Why Adopt' section added, with information that is intended to encourage any visitor to make an adoption with us.
+        ![Why Adopt Screenshot](documentation/UserStories7.jpg)
+
+2. I want to receive feedback on the new site
+    - The option to provide feedback is requested and encouraged on the contact form section.
+        ![Contact form screenshot](documentation/UserStories3.jpg)
+        
 # Problems overcome
 
 * I had difficulty changing the text colours and stylings on the navbar as these were defined by the bootstrap CSS file. Initially I added inline CSS to the index.html file to override the Bootstrap navbar-dark stylings. Later, I found a way to do this on the seperate CSS file using greater specificity to override the bootstrap stylings. The Chrome developer tools were very helpful in demonstrating exactly which elements needed to be overridden to get the look that I wanted.
