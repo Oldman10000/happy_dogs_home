@@ -314,3 +314,13 @@ The project was deployed to GitHub Pages using the following steps...
     - [Terri](https://www.battersea.org.uk/dogs/molly?filters=true&centre=&gender=&size=&ageRange=&status=&liveChild=&liveDog=&liveCat=&breed=&reset=&id=6932376)
 
 * Text in "Why Adopt" section copied and amended from [Rescue Dogs 101](https://www.rescuedogs101.com/top-17-reasons-adopt-dog/)
+
+* Deployment section in Readme copied from [Code Institute Sample Readme](https://github.com/Code-Institute-Solutions/SampleREADME)
+
+* General layout and structure of Readme inspired by [Code Institute Sample Readme](https://github.com/Code-Institute-Solutions/SampleREADME)
+
+### Acknowledgements
+
+* Thanks to my mentor Aaron Sinnott for his helpful advice and pointers.
+* Thanks to the code institute Slack community for providing resources and tips.
+* Thanks to friends and family for taking the time to look at the site and give advice on both content and user stories.
