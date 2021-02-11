@@ -256,7 +256,7 @@ My chosen font is Yusei Magic for the headings and Lato for the paragraphs. Thes
 
 * Browsers checked were Chrome, Firefox, Edge, Opera and Safari on all device types
 
-# Problems overcome when testing
+## Problems overcome when testing
 
 * I had difficulty changing the text colours and stylings on the navbar as these were defined by the bootstrap CSS file. Initially I added inline CSS to the index.html file to override the Bootstrap navbar-dark stylings. Later, I found a way to do this on the seperate CSS file using greater specificity to override the bootstrap stylings. The Chrome developer tools were very helpful in demonstrating exactly which elements needed to be overridden to get the look that I wanted.
 
@@ -271,6 +271,15 @@ My chosen font is Yusei Magic for the headings and Lato for the paragraphs. Thes
     - Form checkbox inputs were labelled incorrectly - they all had the "for" attribute "gridCheck1" as they had been copy and pasted. These were all changed to match the appropriate label.
     - Link colours had an insufficient contrast ratio - I added an underline element upon hovering to increase accessibility.
     - No aria label on home button which would cause screen readers to ignore this important element - rectified by adding aria label "home" to this element.
+
+## Testing results
+
+### Final Chrome Dev tools
+
+* ![Mobile](documentation/devtoolsmobile.jpg)
+
+* ![Desktop](documentation/devtoolsdesktop.jpg)
+
 
 # Deployment
 
