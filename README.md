@@ -350,3 +350,9 @@ The project was deployed to GitHub Pages using the following steps...
 * Thanks to my mentor Aaron Sinnott for his helpful advice and pointers.
 * Thanks to the code institute Slack community for providing resources and tips.
 * Thanks to friends and family for taking the time to look at the site and give advice on both content and user stories.
+* [W3 Schools](https://www.w3schools.com/) and [Stackoverflow](https://stackoverflow.com/) were extremely useful when I forgot correct code syntax for both HTML and CSS elements and a quick search in either of these websites would usually give me the answer I needed.
+* Chrome Dev Tools was extremely useful for testing and adjusting CSS
+    - I could see real time results to code adjustments
+    - I was able to see output in both mobile and desktop format
+    - I was able to see exactly what Bootstrap elements I needed to overwrite for certain sections
+    - The Lighthouse feature helped me fix performance and accessibility issues as described in the testing section
