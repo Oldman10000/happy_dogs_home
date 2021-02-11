@@ -88,7 +88,7 @@ Each page section has a clear function and purpose.
 
 ### 4. Meet the dogs!
 
-* Pictures and information about our dogs. There is scope for expansion on this section - this can link to a further page with all of our dogs included but for now is just a showcase.
+* Pictures and information profile about our dogs. There is scope for expansion on this section - this can link to a further page with all of our dogs included but for now is just a showcase.
 
 ### 5. Why Adopt?
 
@@ -225,6 +225,18 @@ My chosen font is Yusei Magic for the headings and Lato for the paragraphs. Thes
 
         ![Footer screenshot](documentation/UserStories6.jpg)
 
+### Owner Goals
+
+1. I want visitors to want to make a donation or adoption
+    - We have plenty of pictures of happy and healthy looking dogs which should appeal to any visitor.
+    - There is a 'Why Adopt' section added, with information that is intended to encourage any visitor to make an adoption with us.
+        ![Why Adopt Screenshot](documentation/UserStories7.jpg)
+
+2. I want to receive feedback on the new site
+    - The option to provide feedback is requested and encouraged on the contact form section.
+        ![Contact form screenshot](documentation/UserStories3.jpg)
+
+        
 ## Device and Browser Testing
 
 * Chrome developer tools used throughout development to check usability on different devices/sizes. Devices "used" on dev tools include:
@@ -236,24 +248,13 @@ My chosen font is Yusei Magic for the headings and Lato for the paragraphs. Thes
 
 * Personal devices used to check usability after deployment
     - OnePlus Nord mobile phone
-    - Huawei Mediapad M5 10"
+    - Huawei Mediapad M5 10" tablet
     - Dell Inspiron 7577 laptop
     - Dell U2520D monitor
 
 * Friends and family asked to check usability on their Apple mobile, laptop, desktop and tablet devices, particularly to check usability on Safari browser
 
 * Browsers checked were Chrome, Firefox, Edge, Opera and Safari on all device types
-
-### Owner Goals
-
-1. I want visitors to want to make a donation or adoption
-    - We have plenty of pictures of happy and healthy looking dogs which should appeal to any visitor.
-    - There is a 'Why Adopt' section added, with information that is intended to encourage any visitor to make an adoption with us.
-        ![Why Adopt Screenshot](documentation/UserStories7.jpg)
-
-2. I want to receive feedback on the new site
-    - The option to provide feedback is requested and encouraged on the contact form section.
-        ![Contact form screenshot](documentation/UserStories3.jpg)
 
 # Problems overcome
 
