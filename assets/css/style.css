@@ -186,6 +186,12 @@ a:hover {
     text-align: right;
 }
 
+@media only screen and (max-width: 576px) {
+    .align-right {
+        text-align: left;
+    }
+}
+
 .about-us-image {
     min-width: 250px;
     max-width: 500px;
