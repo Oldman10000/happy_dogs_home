@@ -7,6 +7,11 @@ This is my first Milestone Project for my Full Stack Software Development Diplom
 For this project I am creating a simple website for a fictional new shelter for dogs. The website is simply structured with only the most important information on show, however there is scope for future expansion.
 
 The basic aim of the website is to introduce people to the charity and encourage visitors to adopt a dog.
+
+## Mockup
+
+![Mockup](documentation/Mockup.jpg)
+
 # UXD
 
 ## Strategy
@@ -150,6 +155,7 @@ My chosen font is Yusei Magic for the headings and Lato for the paragraphs. Thes
 * [Git](https://git-scm.com/) - Used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub
 * [Github](https://github.com/) - GitHub is used to store the projects code after being pushed from Git
 * [Webformatter.com](https://webformatter.com/html) - Used to beautify html
+* [Techsini Mockup Generator](http://techsini.com/multi-mockup/) - Used for website mockup
 * [Balsamiq](https://balsamiq.com/) - Balsamiq was used to create the [wireframe](documentation/wireframe.pdf) during the design process
 * MS Paint - Used to resize and crop images used
 * [Coolers](https://coolors.co/) to generate the colour pallette
