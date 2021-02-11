@@ -180,6 +180,10 @@ a:hover {
 
 /*-----------Home Page Section----------*/
 
+#home h1 {
+    display: none;
+}
+
 .hero-image {
   background-image: url("../images/beagles.jpg");
   height: 80vh;

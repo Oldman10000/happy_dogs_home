@@ -280,6 +280,17 @@ My chosen font is Yusei Magic for the headings and Lato for the paragraphs. Thes
 
 * ![Desktop](documentation/devtoolsdesktop.jpg)
 
+* Initial HTML validator provided one warning as there was no heading in "Home" section.
+    
+    ![HTML warning](documentation/htmlerror.jpg)
+
+    - This was subsequently fixed by adding a hidden h1 element to the "Home" section with the content being the word "Home".
+    
+    ![HTML final results](documentation/htmlresults.jpg)
+
+* CSS Validator found no errors.
+
+    ![CSS final results](documentation/cssresults.jpg)
 
 # Deployment
 
