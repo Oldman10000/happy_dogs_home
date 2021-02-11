@@ -44,6 +44,34 @@ a:hover {
     color: #bc4749;
 }
 
+/*--All button classes are overwritten from Bootstrap classes. The new colouring matches the colour pallette for the site better than the Bootstrap default--*/
+  
+.btn-primary {
+    color: #f2e8cf;
+    background-color: #386641;
+    border-style: outset;
+    border-color: #6a994e;
+}
+
+.btn-primary:hover {
+    color: #f2e8cf;
+    background-color: #bc4749;
+    border-color: #bc4749;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active {
+    color: #f2e8cf;
+    background-color: #bc4749;
+    border-color: #bc4749;
+}
+
+.btn-primary:focus {
+    color: #f2e8cf;
+    background-color: #bc4749;
+    border-color: #bc4749;
+    box-shadow: 0 0 0 0.2rem rgb(188 71 73 / 50%);
+}
+
 /*--Divider copied from https://templatefor.net/best-css-dividers/ --*/
 
 .divider{
@@ -157,38 +185,28 @@ a:hover {
   position: relative;
 }
 
-.adopt {
-    background-color: rgba(242,232,207,0.8);
-    color: #386641;
-    border: 5px rgb(56,102,65,0.8) solid;
-    border-radius: 10px;
-    width: 50%;
-    height: 20%;
+/* CSS for div positioning both vertically and horizontally taken from W3 Schools Post https://www.w3schools.com/howto/howto_css_center-vertical.asp --*/
+
+.more-info {
+    margin: 0;
     position: absolute;
-    top: 75%;
+    top: 80%;
     left: 50%;
+    -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
 
-.adopt-dog {
-    text-align: center;
-}
-
-.adopt-dog p {
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-.more-info {
-    text-align: center;
-}
-
 .more-info a {
-    background-color: #a7c957;
-    border: 2px #6a994e solid;
-    border-radius: 5px;
-    padding: 5px 20px;
-    color: #386641; 
+    padding: 10px 25px;
+    font-family: 'Yusei Magic', sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width: 768px) {
+    .more-info a {
+        font-size: 1em;
+}
 }
 
 /*-----------About Us Section----------*/
@@ -281,33 +299,6 @@ a:hover {
     font-family: 'Lato', sans-serif;
     color: #386641;
     font-weight: 600;
-}
-
-/*--All button classes are overwritten from Bootstrap classes. The new colouring matches the colour pallette for the site better than the Bootstrap default--*/
-  
-.btn-primary {
-    color: #f2e8cf;
-    background-color: #386641;
-    border-color: #386641;
-}
-
-.btn-primary:hover {
-    color: #f2e8cf;
-    background-color: #bc4749;
-    border-color: #bc4749;
-}
-
-.btn-primary:not(:disabled):not(.disabled):active {
-    color: #f2e8cf;
-    background-color: #bc4749;
-    border-color: #bc4749;
-}
-
-.btn-primary:focus {
-    color: #f2e8cf;
-    background-color: #bc4749;
-    border-color: #bc4749;
-    box-shadow: 0 0 0 0.2rem rgb(188 71 73 / 50%);
 }
 
 /*----------Footer----------*/
