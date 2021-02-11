@@ -225,6 +225,25 @@ My chosen font is Yusei Magic for the headings and Lato for the paragraphs. Thes
 
         ![Footer screenshot](documentation/UserStories6.jpg)
 
+## Device and Browser Testing
+
+* Chrome developer tools used throughout development to check usability on different devices/sizes. Devices "used" on dev tools include:
+    - Moto G4 and Iphone 6/7/8 as these are fairly standard sizes for a mobile devices
+    - Iphone 5/SE and Samsung Galaxy Fold as these are relatively narrow mobile devices
+    - Pixel 2 XL and Iphone X as these are larger mobile devices
+    - Ipad and Surface Pro as these are standard sizes for tablet devices
+    - Ipad Pro as this is a higher resolution tablet device
+
+* Personal devices used to check usability after deployment
+    - OnePlus Nord mobile phone
+    - Huawei Mediapad M5 10"
+    - Dell Inspiron 7577 laptop
+    - Dell U2520D monitor
+
+* Friends and family asked to check usability on their Apple mobile, laptop, desktop and tablet devices, particularly to check usability on Safari browser
+
+* Browsers checked were Chrome, Firefox Edge, Opera and Safari on all device types.
+
 ### Owner Goals
 
 1. I want visitors to want to make a donation or adoption
