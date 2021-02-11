@@ -276,9 +276,13 @@ My chosen font is Yusei Magic for the headings and Lato for the paragraphs. Thes
 
 ### Final Chrome Dev tools
 
-* ![Mobile](documentation/devtoolsmobile.jpg)
+* Mobile
 
-* ![Desktop](documentation/devtoolsdesktop.jpg)
+    ![Mobile](documentation/devtoolsmobile.jpg)
+
+* Desktop
+
+    ![Desktop](documentation/devtoolsdesktop.jpg)
 
 * Initial HTML validator provided one warning as there was no heading in "Home" section.
     
