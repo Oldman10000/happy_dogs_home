@@ -248,8 +248,14 @@ a:hover {
     padding-bottom: 25px;
 }
 
-#contact .heading p {
+#contact .heading {
     padding: 20px 0;
+}
+
+.col-form-label, .form-check-label, .enquiry {
+    font-family: 'Lato', sans-serif;
+    color: #386641;
+    font-weight: 600;
 }
 
 /*--All button classes are overwritten from Bootstrap classes. The new colouring matches the colour pallette for the site better than the Bootstrap default--*/
