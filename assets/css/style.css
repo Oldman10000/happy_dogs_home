@@ -86,6 +86,12 @@ a:hover {
     font-size: 1.6em;
 }
 
+@media only screen and (max-width: 372px) {
+    .navbar-dark .navbar-brand {
+        font-size: 1.2em;
+    }
+}
+
 .navbar-dark .navbar-brand:hover {
     color: #f2e8cf;
 }
@@ -94,6 +100,12 @@ a:hover {
     color: rgba(242,232,207,0.5);
     border-color: rgba(242,232,207,0.5);
     border-width: 2px;
+}
+
+@media only screen and (max-width: 372px) {
+    .navbar-dark .navbar-toggler {
+        font-size: 0.7em;
+    }
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -230,9 +242,16 @@ a:hover {
 
 .adopt-photos {
     height: 300px;
-    width: 300px;
+    width: auto;
     margin: 40px;
     border-radius: 10%;
+}
+
+@media only screen and (max-width: 372px) {
+    .adopt-photos {
+        max-height: 250px;
+        width: auto;
+    }
 }
 
 #why-adopt, h2 p {
