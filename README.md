@@ -248,3 +248,40 @@ The project was deployed to GitHub Pages using the following steps...
 4. Under "Source", click the dropdown called "None" and select "Master Branch".
 5. The page will automatically refresh.
 6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
+
+# Credits
+
+### Code
+
+* HTML and CSS code for horizontal section dividers copied and amended as required from [templatefor.net](https://templatefor.net/best-css-dividers/)
+* CSS code to position an element both horizontally and vertically within div copied from [w3schools.com](https://www.w3schools.com/howto/howto_css_center-vertical.asp)
+
+### Bootstrap
+
+* Bootstrap components html copied and amended for the following sections:
+    - [Navbar](https://getbootstrap.com/docs/4.5/components/navbar/)
+    - [Scrollspy](https://getbootstrap.com/docs/4.5/components/scrollspy/)
+    - [Contact form](https://getbootstrap.com/docs/4.5/components/forms/)
+* Bootstrap [grid](https://getbootstrap.com/docs/4.5/layout/grid/) classes used for layout and responsiveness.
+* Bootstrap classes used in style.css file to overwrite some bootstrap default class designs.
+
+### Images
+
+* Hero image of playing beagles taken from [petponder.com](https://petponder.com/how-much-do-beagle-puppies-cost). No photographer credit found.
+* Photo of "Benji" taken from [thedodo.com](https://www.thedodo.com/10-reasons-why-adopting-a-resc-775783452.html). Photo credit: Reddit user Skyote.
+* Photo of "Ricky" taken from [thedodo.com](https://www.thedodo.com/10-reasons-why-adopting-a-resc-775783452.html). Photo credit: Reddit user CzechThisOut.
+* Photo of "Terri" taken from [bigfluffydogs.com](https://bigfluffydogs.com/our-dogs/terri/). No photographer credited.
+* Photo of puppies in "Why Adopt" section taken from [pexels.com](https://www.pexels.com/photo/two-yellow-labrador-retriever-puppies-1108099/). Photo credit: Chevanon Photography.
+* Photo of 2 Vizsla dogs in "Why Adopt" section taken from [pexels.com](https://www.pexels.com/photo/dog-close-viszla-33287/). Photo credit: Pixabay.
+* Photo in "About Us" section taken by myself.
+
+### Text
+
+* Text in "About Us" section copied and amended from [The Last Chance Animal Rescue](http://www.lastchanceanimalrescue.co.uk/index.html)
+
+* All dog profile description text in "Meet the Dogs" section taken from Battersea Dogs Home website.
+    - [Benji](https://www.battersea.org.uk/dogs/harley?filters=true&centre=&gender=&size=&ageRange=&status=&liveChild=&liveDog=&liveCat=&breed=&reset=&id=6932381)
+    - [Ricky](https://www.battersea.org.uk/dogs/luke?filters=true&centre=&gender=&size=&ageRange=&status=&liveChild=&liveDog=&liveCat=&breed=&reset=&id=6930971)
+    - [Terri](https://www.battersea.org.uk/dogs/molly?filters=true&centre=&gender=&size=&ageRange=&status=&liveChild=&liveDog=&liveCat=&breed=&reset=&id=6932376)
+
+* Text in "Why Adopt" section copied and amended from [Rescue Dogs 101](https://www.rescuedogs101.com/top-17-reasons-adopt-dog/)
