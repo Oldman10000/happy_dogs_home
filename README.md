@@ -256,7 +256,7 @@ My chosen font is Yusei Magic for the headings and Lato for the paragraphs. Thes
 
 * Browsers checked were Chrome, Firefox, Edge, Opera and Safari on all device types
 
-# Problems overcome
+# Problems overcome when testing
 
 * I had difficulty changing the text colours and stylings on the navbar as these were defined by the bootstrap CSS file. Initially I added inline CSS to the index.html file to override the Bootstrap navbar-dark stylings. Later, I found a way to do this on the seperate CSS file using greater specificity to override the bootstrap stylings. The Chrome developer tools were very helpful in demonstrating exactly which elements needed to be overridden to get the look that I wanted.
 
@@ -265,6 +265,12 @@ My chosen font is Yusei Magic for the headings and Lato for the paragraphs. Thes
 * There were issues with the navbar elements and photos in the "Why Adopt" section on Iphone 5 and Samsung Galaxy Fold screens when testing the site as these devices particularly narrow screens. I added media queries to the affected elements to make them smaller at screen widths below 372px to compensate for this. I used the same solution to fix an issue with the social media icons in the footer. For low width devices these would overrun into each other so a media query was added to reduce their size for smaller devices.
 
 * Navbar not transforming into hamburger icon for Ipad Pro. I noticed this was because the resolution for this device was slightly over the Bootstrap large container size, so changed the breakpoint of this element to xl to fix this. The same issue was occuring on the footer section where each element was displayed horizontally rather than vertically aligned as intended. Once again I fixed the breakpoint for each element to xl to ensure that it appeared as desired.
+
+* Chrome dev tools lighthouse run to check optimisation. The following issues were found and resolved
+    - Images were of a large size and could be reduced. To remedy this I compressed all the images used on the page to quicken loading speeds.
+    - Form checkbox inputs were labelled incorrectly - they all had the "for" attribute "gridCheck1" as they had been copy and pasted. These were all changed to match the appropriate label.
+    - Link colours had an insufficient contrast ratio - I added an underline element upon hovering to increase accessibility.
+    - No aria label on home button which would cause screen readers to ignore this important element - rectified by adding aria label "home" to this element.
 
 # Deployment
 
