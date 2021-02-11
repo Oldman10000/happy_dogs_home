@@ -1,414 +1,349 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="Description" content="Home Page for a dog shelter. This page has information to the shelter itself, showcases our dogs, encourages visitors to adopt dogs and provides a contact section for all enquiries." />
+        <title>Happy Dogs Home</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Yusei+Magic&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="Description"
-        content="Home Page for a dog shelter. This page has information to the shelter itself, showcases our dogs, encourages visitors to adopt dogs and provides a contact section for all enquiries.">
-    <title>Happy Dogs Home</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Yusei+Magic&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
-</head>
+    <!--Bootstrap Scrollspy component added to body and used to display which section is currently visible-->
 
-<!--Bootstrap Scrollspy component added to body and used to display which section is currently visible-->
+    <body data-spy="scroll" data-target="#dogs-nav">
+        <header>
+            <!--Navbar element copied and amended as required from Bootstrap 4.5 components-->
 
-<body data-spy="scroll" data-target="#dogs-nav">
-    <header>
-
-        <!--Navbar element copied and amended as required from Bootstrap 4.5 components-->
-
-        <nav id="dogs-nav" class="navbar navbar-dark fixed-top navbar-expand-lg">
-            <a class="navbar-brand" href="#home"><i class="fas fa-paw"></i> Happy Dogs Home</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#home"><i class="fas fa-home"></i></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about-us">About Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#meet-the-dogs">Meet the dogs!</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#why-adopt">Why Adopt?</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Get in touch</a>
-                    </li>
-                </ul>
-                <div class="col-12 col-lg-4 nav-social-icons">
-                    <a href="https://www.facebook.com/" target="_blank"
-                        aria-label="Go to our facebook page (opens in new tab)"><i class="fab fa-facebook-f"></i></a>
-                    <a href="https://www.twitter.com/" target="_blank"
-                        aria-label="Go to our twitter page (opens in new tab)"><i class="fab fa-twitter"></i></a>
-                    <a href="https://www.instagram.com/" target="_blank"
-                        aria-label="Go to our instagram page (opens in new tab)"><i class="fab fa-instagram"></i></a>
-                    <a href="https://www.youtube.com/" target="_blank"
-                        aria-label="Go to our youtube page (opens in new tab)"><i class="fab fa-youtube"></i></a>
-                </div>
-            </div>
-        </nav>
-    </header>
-
-    <!--Home section with hero image and covering text linking user to contact section-->
-
-    <section id="home">
-        <div class="hero-image">
-            <div class="more-info">
-                <a href="#contact" class="btn btn-primary">I want to adopt a dog!</a>
-            </div>
-        </div>
-    </section>
-
-    <!--Main Sections below all use the Bootstrap grid system to ensure visual flow and easier responsive design-->
-
-    <!--About Us section providing the user with basic information about the charity-->
-
-    <div id="background-coloring">
-        <section id="about-us">
-            <div class="container-md">
-
-                <!--Divider copied from https://templatefor.net/best-css-dividers-->
-
-                <p class="divider"><i class="fas fa-paw"></i></p>
-                <div class="heading">
-                    <h1 class="section-header">About Us</h1>
-                </div>
-                <div class="row">
-                    <div class="col-12 col-sm-6">
-                        <p>Happy Dogs Home is a registered charity based in Shilton. It was founded in 2020 with the aim
-                            being to rescue and re-home unwanted and abandoned dogs.
-                        </p>
-                    </div>
-                    <div class="col-12 col-sm-6 d-flex align-right">
-                        <p>We rescue, rehabilitate and re-home dogs to give them the better future they deserve. We
-                            provide
-                            medical care, food, shelter and love for all dogs and ultimately find them loving homes.
-                        </p>
+            <nav id="dogs-nav" class="navbar navbar-dark fixed-top navbar-expand-lg">
+                <a class="navbar-brand" href="#home"><i class="fas fa-paw"></i> Happy Dogs Home</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home"><i class="fas fa-home"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about-us">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#meet-the-dogs">Meet the dogs!</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#why-adopt">Why Adopt?</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Get in touch</a>
+                        </li>
+                    </ul>
+                    <div class="col-12 col-lg-4 nav-social-icons">
+                        <a href="https://www.facebook.com/" target="_blank" aria-label="Go to our facebook page (opens in new tab)"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.twitter.com/" target="_blank" aria-label="Go to our twitter page (opens in new tab)"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/" target="_blank" aria-label="Go to our instagram page (opens in new tab)"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/" target="_blank" aria-label="Go to our youtube page (opens in new tab)"><i class="fab fa-youtube"></i></a>
                     </div>
                 </div>
-                <div class="about-us-image">
-                    <img src="assets/images/inge.jpg" class="mx-auto d-block circular-image"
-                        alt="Happy Dogs Home Family with Nellie">
-                </div>
-                <div class="row bottom-text">
-                    <div class="col-12 col-sm-6">
-                        <p>All our animals are health checked, inoculated & identi-chipped and leave with 4 weeks free
-                            pet
-                            insurance. Our vetinary surgeon checks, worms and inoculates all dogs and implements our
-                            rigorous neutering policy as we firmly believe this makes a happier pet.
-                        </p>
-                    </div>
-                    <div class="col-12 col-sm-6 d-flex align-right">
-                        <p>To find out how to adopt and book in a visit please fill out our <a href="#contact">Contact
-                                Form</a> at the bottom of our site
-                        </p>
-                    </div>
+            </nav>
+        </header>
+
+        <!--Home section with hero image and covering text linking user to contact section-->
+
+        <section id="home">
+            <div class="hero-image">
+                <div class="more-info">
+                    <a href="#contact" class="btn btn-primary">I want to adopt a dog!</a>
                 </div>
             </div>
         </section>
 
-        <!--Meet the Dogs section which showcases the dogs that the shelter currently has available for adoption. In future this section could be used as showcase "dog of the month" or similar while all of the dogs we have are shown on seperate page-->
+        <!--Main Sections below all use the Bootstrap grid system to ensure visual flow and easier responsive design-->
 
-        <!--Images in this section should have Bootstrap carousel element added in future so the visitor can see more images of each dog-->
+        <!--About Us section providing the user with basic information about the charity-->
 
-        <section id="meet-the-dogs">
-            <div class="container-md">
-                <p class="divider"><i class="fas fa-paw"></i></p>
-                <div class="heading">
-                    <div class="col">
-                        <h1 class="section-header">Meet the Dogs!</h1>
+        <div id="background-coloring">
+            <section id="about-us">
+                <div class="container-md">
+                    <!--Divider copied from https://templatefor.net/best-css-dividers-->
+
+                    <p class="divider"><i class="fas fa-paw"></i></p>
+                    <div class="heading">
+                        <h1 class="section-header">About Us</h1>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-sm-6">
+                            <p>Happy Dogs Home is a registered charity based in Shilton. It was founded in 2020 with the aim being to rescue and re-home unwanted and abandoned dogs.</p>
+                        </div>
+                        <div class="col-12 col-sm-6 d-flex align-right">
+                            <p>We rescue, rehabilitate and re-home dogs to give them the better future they deserve. We provide medical care, food, shelter and love for all dogs and ultimately find them loving homes.</p>
+                        </div>
+                    </div>
+                    <div class="about-us-image">
+                        <img src="assets/images/inge.jpg" class="mx-auto d-block circular-image" alt="Happy Dogs Home Family with Nellie" />
+                    </div>
+                    <div class="row bottom-text">
+                        <div class="col-12 col-sm-6">
+                            <p>
+                                All our animals are health checked, inoculated & identi-chipped and leave with 4 weeks free pet insurance. Our vetinary surgeon checks, worms and inoculates all dogs and implements our rigorous neutering
+                                policy as we firmly believe this makes a happier pet.
+                            </p>
+                        </div>
+                        <div class="col-12 col-sm-6 d-flex align-right">
+                            <p>To find out how to adopt and book in a visit please fill out our <a href="#contact">Contact Form</a> at the bottom of our site</p>
+                        </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-12 col-lg-4">
-                        <h2>Benji</h2>
-                        <div class="meet-image">
-                            <img src="assets/images/Benji.jpg" class="mx-auto d-block circular-image"
-                                alt="Benji the dog">
+            </section>
+
+            <!--Meet the Dogs section which showcases the dogs that the shelter currently has available for adoption. In future this section could be used as showcase "dog of the month" or similar while all of the dogs we have are shown on seperate page-->
+
+            <!--Images in this section should have Bootstrap carousel element added in future so the visitor can see more images of each dog-->
+
+            <section id="meet-the-dogs">
+                <div class="container-md">
+                    <p class="divider"><i class="fas fa-paw"></i></p>
+                    <div class="heading">
+                        <div class="col">
+                            <h1 class="section-header">Meet the Dogs!</h1>
                         </div>
-                        <p>Benji is a stunning looking boy, he does have a bit of a sensitive side and it took him a
-                            couple
-                            of days to come around but once bonded he is an affectionate dog with a peaceful soul.
-                            <br>
-                            <br>
-                            He did have some issues in his previous home and was a bit protective of his owner so Benji
-                            will need ongoing work to teach him to share and cannot have children in the home.
-                            <br>
-                            <br>
-                            He does have some good manners in place and has nice social skills around other dogs and
-                            could
-                            live with a female dog.
-                            <br>
-                            <br>
-                            <a href="#contact">Contact us</a> to find out how to adopt Benji!
-                        </p>
                     </div>
-                    <div class="col-12 col-lg-4">
-                        <h2>Ricky</h2>
-                        <div class="meet-image">
-                            <img src="assets/images/Ricky.jpg" class="mx-auto d-block circular-image"
-                                alt="Ricky the dog">
+                    <div class="row">
+                        <div class="col-12 col-lg-4">
+                            <h2>Benji</h2>
+                            <div class="meet-image">
+                                <img src="assets/images/Benji.jpg" class="mx-auto d-block circular-image" alt="Benji the dog" />
+                            </div>
+                            <p>
+                                Benji is a stunning looking boy, he does have a bit of a sensitive side and it took him a couple of days to come around but once bonded he is an affectionate dog with a peaceful soul.
+                                <br />
+                                <br />
+                                He did have some issues in his previous home and was a bit protective of his owner so Benji will need ongoing work to teach him to share and cannot have children in the home.
+                                <br />
+                                <br />
+                                He does have some good manners in place and has nice social skills around other dogs and could live with a female dog.
+                                <br />
+                                <br />
+                                <a href="#contact">Contact us</a> to find out how to adopt Benji!
+                            </p>
                         </div>
-                        <p>Ricky is a gentle and affectionate dog who enjoys snuggling up to people for a fuss.
-                            He is happiest when he has company so has found being in the kennel environment a bit
-                            stressful.
-                            <br>
-                            <br>
-                            Ricky is looking for a home with owners who will be home most of the day and are happy to
-                            put in
-                            the time and dedication in teaching him how to relax when he is left alone.
-                            <br>
-                            <br>
-                            Ricky has shown some nice social skills with dogs and could possibly live with a sociable
-                            steady
-                            dog that could act as a good role model but also be happy to engage in some calm play
-                            sessions.
-                            <br>
-                            <br>
-                            <a href="#contact">Contact us</a> to find out how to adopt Ricky!
-                        </p>
-                    </div>
-                    <div class="col-12 col-lg-4">
-                        <h2>Terri</h2>
-                        <div class="meet-image">
-                            <img src="assets/images/Terri.jpg" class="mx-auto d-block circular-image"
-                                alt="Terri the dog">
+                        <div class="col-12 col-lg-4">
+                            <h2>Ricky</h2>
+                            <div class="meet-image">
+                                <img src="assets/images/Ricky.jpg" class="mx-auto d-block circular-image" alt="Ricky the dog" />
+                            </div>
+                            <p>
+                                Ricky is a gentle and affectionate dog who enjoys snuggling up to people for a fuss. He is happiest when he has company so has found being in the kennel environment a bit stressful.
+                                <br />
+                                <br />
+                                Ricky is looking for a home with owners who will be home most of the day and are happy to put in the time and dedication in teaching him how to relax when he is left alone.
+                                <br />
+                                <br />
+                                Ricky has shown some nice social skills with dogs and could possibly live with a sociable steady dog that could act as a good role model but also be happy to engage in some calm play sessions.
+                                <br />
+                                <br />
+                                <a href="#contact">Contact us</a> to find out how to adopt Ricky!
+                            </p>
                         </div>
-                        <p>Terri is an affectionate lady with a worried side who is looking for new owners with
-                            experience
-                            of owning anxious dogs themselves before.
-                            <br>
-                            <br>
-                            A nervous lady, Terri has struggled with being handled at times, and will need a calm,
-                            confident
-                            approach to not put too much pressure on her while she settles. Due to her worried side, she
-                            will need to live in an adult only home away from children, and is not necessarily a family
-                            dog
-                            that will enjoy a cuddle. Terri does enjoy being with her people once she has bonded, but
-                            she
-                            will need time to work on this in her new home. She is happy to explore on her walks, but
-                            can be
-                            anxious of fast movement, and noise, and so will need quiet walks - she is equally happy to
-                            have
-                            a snooze on her bed at home!
-                            <br>
-                            <br>
-                            She would be best suited as the only dog in the home. She should be socialised regularly
-                            with
-                            steady walking buddies who can guide her in the right direction and help to build her
-                            confidence, as she does not have much experience with them.
-                            <br>
-                            <br>
-                            <a href="#contact">Contact us</a> to find out how to adopt Terri!
-                        </p>
+                        <div class="col-12 col-lg-4">
+                            <h2>Terri</h2>
+                            <div class="meet-image">
+                                <img src="assets/images/Terri.jpg" class="mx-auto d-block circular-image" alt="Terri the dog" />
+                            </div>
+                            <p>
+                                Terri is an affectionate lady with a worried side who is looking for new owners with experience of owning anxious dogs themselves before.
+                                <br />
+                                <br />
+                                A nervous lady, Terri has struggled with being handled at times, and will need a calm, confident approach to not put too much pressure on her while she settles. Due to her worried side, she will need to live
+                                in an adult only home away from children, and is not necessarily a family dog that will enjoy a cuddle. Terri does enjoy being with her people once she has bonded, but she will need time to work on this in
+                                her new home. She is happy to explore on her walks, but can be anxious of fast movement, and noise, and so will need quiet walks - she is equally happy to have a snooze on her bed at home!
+                                <br />
+                                <br />
+                                She would be best suited as the only dog in the home. She should be socialised regularly with steady walking buddies who can guide her in the right direction and help to build her confidence, as she does not
+                                have much experience with them.
+                                <br />
+                                <br />
+                                <a href="#contact">Contact us</a> to find out how to adopt Terri!
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <!--Why Adopt section. This is intended to encourage any visitor to make a dog adoption-->
+            <!--Why Adopt section. This is intended to encourage any visitor to make a dog adoption-->
 
-        <section id="why-adopt">
-            <div class="container-md" id="info-container">
-                <p class="divider"><i class="fas fa-paw"></i></p>
-                <div class="heading">
-                    <h1 class="section-header">Why Adopt?</h1>
-                </div>
-                <div class="row">
-                    <div class="col col-md-6">
-                        <h2><i class="fas fa-bone"></i> Because You'll save a life</h2>
-                        <p>The number one reason to adopt a dog is that you will be saving their life. Many shelters are
-                            overflowing with dogs and cats, they sometimes have to turn away animals simply because they
-                            do
-                            not have enough room. So when you adopt your dog, another one can take its place.
-                        </p>
-                        <img src="assets/images/puppies.jpg" alt="Puppies on Meadow"
-                            class="mx-auto d-block adopt-photos">
-                        <h2><i class="fas fa-bone"></i> It will change your life too</h2>
-                        <p>Dogs have a way of stealing our hearts with one look of those big brown eyes! Dogs have a way
-                            of
-                            keeping us healthy and active. If you have had a bad day, a dog can make you smile and they
-                            have
-                            been proven to reduce stress in humans.
-                        </p>
+            <section id="why-adopt">
+                <div class="container-md" id="info-container">
+                    <p class="divider"><i class="fas fa-paw"></i></p>
+                    <div class="heading">
+                        <h1 class="section-header">Why Adopt?</h1>
                     </div>
-                    <div class="col col-md-6">
-                        <h2><i class="fas fa-bone"></i> It is less expensive</h2>
-                        <p>All dogs are worthy of our love and affection, however buying from a breeder or a pet shop is
-                            expensive and can cost upwards of
-                            £500-£1000. We charge only £200 for a
-                            beautiful
-                            dog
-                            that is completely up to date with vaccinations, and has been spayed/neutered and
-                            micro-chipped.
-                        </p>
-                        <img src="assets/images/noble_dogs.jpg" alt="Puppies on Meadow"
-                            class="mx-auto d-block adopt-photos">
-                        <h2><i class="fas fa-bone"></i> Unconditional Love</h2>
-                        <p>Dogs know when they've been saved from terrible situations. Your dog will be forever grateful
-                            and
-                            offer you love even when you have a bad day, even if you cheat on him and pet another dog,
-                            and
-                            even if you accidentally yell at him for getting in the way.
-                        </p>
+                    <div class="row">
+                        <div class="col col-md-6">
+                            <h2><i class="fas fa-bone"></i> Because You'll save a life</h2>
+                            <p>
+                                The number one reason to adopt a dog is that you will be saving their life. Many shelters are overflowing with dogs and cats, they sometimes have to turn away animals simply because they do not have enough
+                                room. So when you adopt your dog, another one can take its place.
+                            </p>
+                            <img src="assets/images/puppies.jpg" alt="Puppies on Meadow" class="mx-auto d-block adopt-photos" />
+                            <h2><i class="fas fa-bone"></i> It will change your life too</h2>
+                            <p>
+                                Dogs have a way of stealing our hearts with one look of those big brown eyes! Dogs have a way of keeping us healthy and active. If you have had a bad day, a dog can make you smile and they have been proven to
+                                reduce stress in humans.
+                            </p>
+                        </div>
+                        <div class="col col-md-6">
+                            <h2><i class="fas fa-bone"></i> It is less expensive</h2>
+                            <p>
+                                All dogs are worthy of our love and affection, however buying from a breeder or a pet shop is expensive and can cost upwards of £500-£1000. We charge only £200 for a beautiful dog that is completely up to
+                                date with vaccinations, and has been spayed/neutered and micro-chipped.
+                            </p>
+                            <img src="assets/images/noble_dogs.jpg" alt="Puppies on Meadow" class="mx-auto d-block adopt-photos" />
+                            <h2><i class="fas fa-bone"></i> Unconditional Love</h2>
+                            <p>
+                                Dogs know when they've been saved from terrible situations. Your dog will be forever grateful and offer you love even when you have a bad day, even if you cheat on him and pet another dog, and even if you
+                                accidentally yell at him for getting in the way.
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <!--Contact Form section. This is for any user enquiries. We only ask for user name and contact details and for further details regarding their enquiry.-->
+            <!--Contact Form section. This is for any user enquiries. We only ask for user name and contact details and for further details regarding their enquiry.-->
 
-        <section id="contact">
-            <div class="container-md" id="contact-container">
-                <p class="divider"><i class="fas fa-paw"></i></p>
-                <div class="heading">
-                    <h1 class="section-header">Get in touch</h1>
-                    <p>Please feel free to ask us anything! We aim to respond to all enquiries within 24 hours.
-                        <br>Any feedback would be extremely welcome!
-                        <br>*Required</p>
-                </div>
-
-                <!--Form element copied and amended as required from Bootstrap 4.5 components-->
-
-                <form class="contact-form">
-                    <div class="form-group row">
-                        <label for="name" class="col-sm-2 col-form-label">
-                            Name*
-                        </label>
-                        <div class="col-sm-10">
-                            <input type="text" class="form-control" id="name" required>
-                        </div>
+            <section id="contact">
+                <div class="container-md" id="contact-container">
+                    <p class="divider"><i class="fas fa-paw"></i></p>
+                    <div class="heading">
+                        <h1 class="section-header">Get in touch</h1>
+                        <p>
+                            Please feel free to ask us anything! We aim to respond to all enquiries within 24 hours. <br />
+                            Any feedback would be extremely welcome! <br />
+                            *Required
+                        </p>
                     </div>
-                    <div class="form-group row">
-                        <label for="email" class="col-sm-2 col-form-label">
-                            Email*
-                        </label>
-                        <div class="col-sm-10">
-                            <input type="email" class="form-control" id="email" required>
-                        </div>
-                    </div>
-                    <div class="form-group row">
-                        <label for="tel" class="col-sm-2 col-form-label">
-                            Tel*
-                        </label>
-                        <div class="col-sm-10">
-                            <input type="tel" class="form-control" id="tel" required>
-                        </div>
-                    </div>
-                    <div class="form-group row">
-                        <div class="col-sm-2 enquiry">
-                            Enquiry Type (Please select at least one option)
-                        </div>
-                        <div class="col-sm-10">
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" id="gridCheck1">
-                                <label class="form-check-label" for="gridCheck1">
-                                    I want to adopt a dog!
-                                </label>
-                                <br>
-                                <input class="form-check-input" type="checkbox" id="gridCheck2">
-                                <label class="form-check-label" for="gridCheck1">
-                                    I want to sponsor a dog!
-                                </label>
-                                <br>
-                                <input class="form-check-input" type="checkbox" id="gridCheck3">
-                                <label class="form-check-label" for="gridCheck1">
-                                    I would like to visit!
-                                </label>
-                                <br>
-                                <input class="form-check-input" type="checkbox" id="gridCheck4">
-                                <label class="form-check-label" for="gridCheck1">
-                                    Website feedback
-                                </label>
-                                <br>
-                                <input class="form-check-input" type="checkbox" id="gridCheck5">
-                                <label class="form-check-label" for="gridCheck1">
-                                    Other (please specify below)
-                                </label>
+
+                    <!--Form element copied and amended as required from Bootstrap 4.5 components-->
+
+                    <form class="contact-form">
+                        <div class="form-group row">
+                            <label for="name" class="col-sm-2 col-form-label">
+                                Name*
+                            </label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" id="name" required />
                             </div>
                         </div>
-                    </div>
-                    <div class="form-group row">
-                        <label for="info" class="col-sm-2 col-form-label">
-                            Additional Info
-                        </label>
-                        <div class="col-sm-10">
-                            <textarea class="form-control" id="info" rows="4"></textarea>
+                        <div class="form-group row">
+                            <label for="email" class="col-sm-2 col-form-label">
+                                Email*
+                            </label>
+                            <div class="col-sm-10">
+                                <input type="email" class="form-control" id="email" required />
+                            </div>
                         </div>
-                    </div>
-                    <div class="form-group row">
-                        <div class="col-sm-10">
-                            <button type="submit" class="btn btn-primary">Submit</button>
+                        <div class="form-group row">
+                            <label for="tel" class="col-sm-2 col-form-label">
+                                Tel*
+                            </label>
+                            <div class="col-sm-10">
+                                <input type="tel" class="form-control" id="tel" required />
+                            </div>
                         </div>
-                    </div>
-                </form>
-            </div>
-        </section>
-    </div>
-    <footer>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-12 col-lg-4">
-                    <p>
-                        <strong><i class="fas fa-paw"></i> Happy Dogs Home</strong>
-                        <br>
-                        101 Russell Road
-                        <br>
-                        Shilton
-                        <br>
-                        CV7 1QS
-                        <br>
-                        07705 329899
-                        <br>
-                        happydogshome@gmail.com
-                    </p>
+                        <div class="form-group row">
+                            <div class="col-sm-2 enquiry">
+                                Enquiry Type (Please select at least one option)
+                            </div>
+                            <div class="col-sm-10">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck1" />
+                                    <label class="form-check-label" for="gridCheck1">
+                                        I want to adopt a dog!
+                                    </label>
+                                    <br />
+                                    <input class="form-check-input" type="checkbox" id="gridCheck2" />
+                                    <label class="form-check-label" for="gridCheck1">
+                                        I want to sponsor a dog!
+                                    </label>
+                                    <br />
+                                    <input class="form-check-input" type="checkbox" id="gridCheck3" />
+                                    <label class="form-check-label" for="gridCheck1">
+                                        I would like to visit!
+                                    </label>
+                                    <br />
+                                    <input class="form-check-input" type="checkbox" id="gridCheck4" />
+                                    <label class="form-check-label" for="gridCheck1">
+                                        Website feedback
+                                    </label>
+                                    <br />
+                                    <input class="form-check-input" type="checkbox" id="gridCheck5" />
+                                    <label class="form-check-label" for="gridCheck1">
+                                        Other (please specify below)
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="info" class="col-sm-2 col-form-label">
+                                Additional Info
+                            </label>
+                            <div class="col-sm-10">
+                                <textarea class="form-control" id="info" rows="4"></textarea>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-sm-10">
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </div>
+                        </div>
+                    </form>
                 </div>
-                <div class="col-12 col-lg-4">
-                    <p>
-                        <strong>Opening Hours</strong>
-                        <br>
-                        Mon-Fri: 09:00 - 17:00
-                        <br>
-                        Sat: 09:00 - 13:00
-                        <br>
-                        Sun: Closed
-                    </p>
-                </div>
-                <div class="col-12 col-lg-4 social-icons">
-                    <p>Find us on social media!</p>
-                    <a href="https://www.facebook.com/" target="_blank"
-                        aria-label="Go to our facebook page (opens in new tab)"><i class="fab fa-facebook-f"></i></a>
-                    <a href="https://www.twitter.com/" target="_blank"
-                        aria-label="Go to our twitter page (opens in new tab)"><i class="fab fa-twitter"></i></a>
-                    <a href="https://www.instagram.com/" target="_blank"
-                        aria-label="Go to our instagram page (opens in new tab)"><i class="fab fa-instagram"></i></a>
-                    <a href="https://www.youtube.com/" target="_blank"
-                        aria-label="Go to our youtube page (opens in new tab)"><i class="fab fa-youtube"></i></a>
-                </div>
-            </div>
+            </section>
         </div>
-    </footer>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
-        integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
-        crossorigin="anonymous"></script>
-</body>
-
+        <footer>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 col-lg-4">
+                        <p>
+                            <strong><i class="fas fa-paw"></i> Happy Dogs Home</strong>
+                            <br />
+                            101 Russell Road
+                            <br />
+                            Shilton
+                            <br />
+                            CV7 1QS
+                            <br />
+                            07705 329899
+                            <br />
+                            happydogshome@gmail.com
+                        </p>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <p>
+                            <strong>Opening Hours</strong>
+                            <br />
+                            Mon-Fri: 09:00 - 17:00
+                            <br />
+                            Sat: 09:00 - 13:00
+                            <br />
+                            Sun: Closed
+                        </p>
+                    </div>
+                    <div class="col-12 col-lg-4 social-icons">
+                        <p>Find us on social media!</p>
+                        <a href="https://www.facebook.com/" target="_blank" aria-label="Go to our facebook page (opens in new tab)"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.twitter.com/" target="_blank" aria-label="Go to our twitter page (opens in new tab)"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/" target="_blank" aria-label="Go to our instagram page (opens in new tab)"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/" target="_blank" aria-label="Go to our youtube page (opens in new tab)"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    </body>
 </html>
