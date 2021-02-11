@@ -82,7 +82,7 @@ a:hover {
   font-family: "futura-pt";
   font-size: 3em;
   margin: 0 1em;
-  padding: 20px;
+  padding: 20px 0 0 0;
 }
 
 .divider::before{
@@ -299,6 +299,10 @@ a:hover {
     font-family: 'Lato', sans-serif;
     color: #386641;
     font-weight: 600;
+}
+
+.checkbox-section {
+    margin-bottom: 5px;
 }
 
 /*----------Footer----------*/
