@@ -2,7 +2,7 @@
 
 # About
 
-This is my first Milestone Project for my Full Stack Software Development Diploma with Code Institute. I will be using HTML and CSS only.
+This is my first Milestone Project for my Full Stack Software Development Diploma with Code Institute. I will be using HTML and CSS only, however some Bootstrap elements use JavaScript.
 
 For this project I am creating a simple website for a fictional new shelter for dogs. The website is simply structured with only the most important information on show, however there is scope for future expansion.
 
