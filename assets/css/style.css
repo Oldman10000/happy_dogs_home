@@ -310,6 +310,7 @@ a:hover {
 
 footer {
     background-color: rgba(242,232,207,0.5);
+    padding-bottom: 20px;
 }
 
 footer p {
@@ -324,12 +325,19 @@ footer .social-icons p {
 
 .social-icons {
     text-align: center;
+    padding: 25px 0;
 }
 
 .social-icons a {
     color: #386641;
     font-size: 2em;
     padding: 25px;
+}
+
+@media only screen and (max-width: 372px) {
+    .social-icons a {
+        font-size: 1em;
+    }
 }
 
 .social-icons a:hover {
