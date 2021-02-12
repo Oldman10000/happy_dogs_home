@@ -271,6 +271,8 @@ My chosen font is Yusei Magic for the headings and Lato for the paragraphs. Thes
     - Form checkbox inputs were labelled incorrectly - they all had the "for" attribute "gridCheck1" as they had been copy and pasted. These were all changed to match the appropriate label.
     - Link colours had an insufficient contrast ratio - I added an underline element upon hovering to increase accessibility.
     - No aria label on home button which would cause screen readers to ignore this important element - rectified by adding aria label "home" to this element.
+    - Tap targets not sized appropriately on mobile devices. This referred to the checkboxes in the contact form which were too small and spaced too close together making it more difficult for a mobile user to select these with their fingers. I fixed this by increasing the spacing on these elements.
+
 
 ## Testing results
 

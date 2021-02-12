@@ -314,6 +314,10 @@ a:hover {
     margin-bottom: 5px;
 }
 
+.col-form-label, .form-check-label, .enquiry {
+    margin-bottom: 20px;
+}
+
 /*----------Footer----------*/
 
 footer {
