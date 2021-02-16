@@ -2,7 +2,7 @@
 
 # About
 
-This is my first Milestone Project for my Full Stack Software Development Diploma with Code Institute. I will be using HTML and CSS only, however some Bootstrap elements use JavaScript.
+This is my first Milestone Project for my Full Stack Software Development Diploma with Code Institute. I will be using HTML and CSS only, however some external Bootstrap CDN elements use JavaScript.
 
 For this project I am creating a simple website for a fictional new shelter for dogs. The website is simply structured with only the most important information on show, however there is scope for future expansion.
 
@@ -80,7 +80,7 @@ Each page section has a clear function and purpose.
 
 ### 2. Home - Hero Image 
 
-* Large hero image of happy dogs playing with large text 'Give them a happy home'. There is a box laid over the image which takes the user directly to the contact pages with the text 'I want to adopt a dog'. The positive text and imagery instantly elicits a positive response from a visitor and makes the sites function clear.
+* Large hero image of happy dogs playing. There is a large button laid over the image which takes the user directly to the contact page with the text 'I want to adopt a dog'. The positive text and imagery instantly elicits a positive response from a visitor and makes the sites function clear.
 
 ### 3. About Us
 
@@ -96,7 +96,7 @@ Each page section has a clear function and purpose.
 
 ### 6. Get in touch
 
-* Contact form for all enquiries. This has standard inputs for name/email/telephone. There is a checkbox list for the user to specify the purpose of their enquiry as well as a large text field to add further questions/detail. There is also a text box informing the customer that we aim to respond to all enquiries within 24 hours of receipt. Name/email/telephone/enquiry type fields are all required with the larger text box optional. This has a broad scope for the visitor who can make any enquiry needed from once place.
+* Contact form for all enquiries. This has standard inputs for name/email/telephone. There is a checkbox list for the user to specify the purpose of their enquiry as well as a large text field to add further questions/detail. There is also a text box informing the customer that we aim to respond to all enquiries within 24 hours of receipt, and requesting feedback on the site. Name/email/telephone/enquiry type fields are all required with the larger text box optional. This has a broad scope for the visitor who can make any enquiry needed from once place.
 
 ### 7. Footer - Contact info and social
 
@@ -286,6 +286,8 @@ My chosen font is Yusei Magic for the headings and Lato for the paragraphs. Thes
 
     ![Desktop](documentation/devtoolsdesktop.jpg)
 
+### HTML Validation
+
 * Initial HTML validator provided one warning as there was no heading in "Home" section.
     
     ![HTML warning](documentation/htmlerror.jpg)
@@ -293,6 +295,8 @@ My chosen font is Yusei Magic for the headings and Lato for the paragraphs. Thes
     - This was subsequently fixed by adding a hidden h1 element to the "Home" section with the content being the word "Home".
     
     ![HTML final results](documentation/htmlresults.jpg)
+
+### CSS Validation
 
 * CSS Validator found no errors.
 
