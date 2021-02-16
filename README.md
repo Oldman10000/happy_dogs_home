@@ -220,12 +220,13 @@ My chosen font is Yusei Magic for the headings and Lato for the paragraphs. Thes
 7. I want to use the site on mobile/tablet/desktop
     - The site is built with responsive design in mind. Bootstrap grid is used for most elements in the main section to keep the layout tidy and easy to digest.
     - On smaller devices each element follows on from the next with pictures spaced between paragraph elements to keep visual appeal.
+        ![Small device screenshot](documentation/UserStories8.jpg)
     - On larger devices elements tend to be more spaced out next to each other as this has greater visual clarity on a larger display.
-
+        ![Large device screenshot](documentation/UserStories9.jpg)
 8. I want to know where the charity is located
     - Our address is in the footer section as standard for most websites. Our opening hours are also visible in this section.
 
-        ![Navbar and Footer screenshot](documentation/UserStories6.jpg)
+        ![Footer screenshot](documentation/UserStories6.jpg)
 
 ### Owner Goals
 
