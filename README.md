@@ -12,11 +12,14 @@ The basic aim of the website is to introduce people to the charity and encourage
 
 ## Mockup
 
+# Table of Contents
+
 ![Mockup](documentation/Mockup.jpg)
 
 - [Happy Dogs Home](#happy-dogs-home)
 - [About](#about)
   * [Mockup](#mockup)
+- [Table of Contents](#table-of-contents)
 - [UXD](#uxd)
   * [Strategy](#strategy)
     + [User Stories](#user-stories)
