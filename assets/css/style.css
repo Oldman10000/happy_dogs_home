@@ -32,7 +32,7 @@ p {
     padding-bottom: 20px;
 }
 
-#background-coloring {
+main {
     background-color: #f2e8cf;
 }
 
@@ -196,7 +196,7 @@ a:hover {
 
 /* CSS for div positioning both vertically and horizontally taken from W3 Schools Post https://www.w3schools.com/howto/howto_css_center-vertical.asp --*/
 
-.more-info {
+.contact-button {
     margin: 0;
     position: absolute;
     top: 80%;
@@ -205,7 +205,7 @@ a:hover {
     transform: translate(-50%, -50%);
 }
 
-.more-info a {
+.contact-button a {
     padding: 10px 25px;
     font-family: 'Yusei Magic', sans-serif;
     font-size: 2em;
@@ -213,7 +213,7 @@ a:hover {
 }
 
 @media only screen and (max-width: 768px) {
-    .more-info a {
+    .contact-button a {
         font-size: 1em;
 }
 }
