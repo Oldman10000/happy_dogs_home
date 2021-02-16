@@ -8,9 +8,55 @@ For this project I am creating a simple website for a fictional new shelter for 
 
 The basic aim of the website is to introduce people to the charity and encourage visitors to adopt a dog.
 
+[Link to deployed site](https://oldman10000.github.io/happy_dogs_home)
+
 ## Mockup
 
 ![Mockup](documentation/Mockup.jpg)
+
+- [Happy Dogs Home](#happy-dogs-home)
+- [About](#about)
+  * [Mockup](#mockup)
+- [UXD](#uxd)
+  * [Strategy](#strategy)
+    + [User Stories](#user-stories)
+    + [Strategy Trade-off table](#strategy-trade-off-table)
+  * [Scope](#scope)
+  * [Structure](#structure)
+    + [1. Header - Logo, title & Navbar](#1-header---logo--title---navbar)
+    + [2. Home - Hero Image](#2-home---hero-image)
+    + [3. About Us](#3-about-us)
+    + [4. Meet the dogs!](#4-meet-the-dogs-)
+    + [5. Why Adopt?](#5-why-adopt-)
+    + [6. Get in touch](#6-get-in-touch)
+    + [7. Footer - Contact info and social](#7-footer---contact-info-and-social)
+  * [Skeleton](#skeleton)
+  * [Surface](#surface)
+- [Features](#features)
+  * [Existing Features](#existing-features)
+  * [Future Features](#future-features)
+- [Technologies used](#technologies-used)
+  * [Languages Used](#languages-used)
+  * [Frameworks, Libraries & Programs Used](#frameworks--libraries---programs-used)
+- [Testing](#testing)
+  * [User Story Testing](#user-story-testing)
+    + [Visitor Goals](#visitor-goals)
+    + [Owner Goals](#owner-goals)
+  * [Device and Browser Testing](#device-and-browser-testing)
+  * [Problems overcome when testing](#problems-overcome-when-testing)
+  * [Unresolved issues](#unresolved-issues)
+  * [Testing results](#testing-results)
+    + [Final Chrome Dev tools](#final-chrome-dev-tools)
+    + [HTML Validation](#html-validation)
+    + [CSS Validation](#css-validation)
+- [Deployment](#deployment)
+    + [Making a Local Clone](#making-a-local-clone)
+- [Credits](#credits)
+    + [Code](#code)
+    + [Bootstrap](#bootstrap)
+    + [Images](#images)
+    + [Text](#text)
+    + [Acknowledgements](#acknowledgements)
 
 # UXD
 
