@@ -1,6 +1,6 @@
 # Happy Dogs Home
 
-# About
+## About
 
 This is my first Milestone Project for my Full Stack Software Development Diploma with Code Institute. I will be using HTML and CSS only, however some external Bootstrap CDN elements use JavaScript.
 
@@ -10,64 +10,66 @@ The basic aim of the website is to introduce people to the charity and encourage
 
 [Link to deployed site](https://oldman10000.github.io/happy_dogs_home)
 
-## Mockup
-
-# Table of Contents
+### Mockup
 
 ![Mockup](documentation/Mockup.jpg)
 
+## Table of Contents
+
 - [Happy Dogs Home](#happy-dogs-home)
-- [About](#about)
-  * [Mockup](#mockup)
-- [Table of Contents](#table-of-contents)
-- [UXD](#uxd)
-  * [Strategy](#strategy)
-    + [User Stories](#user-stories)
-    + [Strategy Trade-off table](#strategy-trade-off-table)
-  * [Scope](#scope)
-  * [Structure](#structure)
-    + [1. Header - Logo, title & Navbar](#1-header---logo--title---navbar)
-    + [2. Home - Hero Image](#2-home---hero-image)
-    + [3. About Us](#3-about-us)
-    + [4. Meet the dogs!](#4-meet-the-dogs-)
-    + [5. Why Adopt?](#5-why-adopt-)
-    + [6. Get in touch](#6-get-in-touch)
-    + [7. Footer - Contact info and social](#7-footer---contact-info-and-social)
-  * [Skeleton](#skeleton)
-  * [Surface](#surface)
-- [Features](#features)
-  * [Existing Features](#existing-features)
-  * [Future Features](#future-features)
-- [Technologies used](#technologies-used)
-  * [Languages Used](#languages-used)
-  * [Frameworks, Libraries & Programs Used](#frameworks--libraries---programs-used)
-- [Testing](#testing)
-  * [User Story Testing](#user-story-testing)
-    + [Visitor Goals](#visitor-goals)
-    + [Owner Goals](#owner-goals)
-  * [Device and Browser Testing](#device-and-browser-testing)
-  * [Problems overcome when testing](#problems-overcome-when-testing)
-  * [Unresolved issues](#unresolved-issues)
-  * [Testing results](#testing-results)
-    + [Final Chrome Dev tools](#final-chrome-dev-tools)
-    + [HTML Validation](#html-validation)
-    + [CSS Validation](#css-validation)
-- [Deployment](#deployment)
+  * [About](#about)
+    + [Mockup](#mockup)
+  * [Table of Contents](#table-of-contents)
+  * [UXD](#uxd)
+    + [Strategy](#strategy)
+      - [User Stories](#user-stories)
+      - [Strategy Trade-off table](#strategy-trade-off-table)
+    + [Scope](#scope)
+    + [Structure](#structure)
+      - [1. Header - Logo, title & Navbar](#1-header---logo--title---navbar)
+      - [2. Home - Hero Image](#2-home---hero-image)
+      - [3. About Us](#3-about-us)
+      - [4. Meet the dogs!](#4-meet-the-dogs-)
+      - [5. Why Adopt?](#5-why-adopt-)
+      - [6. Get in touch](#6-get-in-touch)
+      - [7. Footer - Contact info and social](#7-footer---contact-info-and-social)
+    + [Skeleton](#skeleton)
+    + [Surface](#surface)
+  * [Features](#features)
+    + [Existing Features](#existing-features)
+    + [Future Features](#future-features)
+  * [Technologies used](#technologies-used)
+    + [Languages Used](#languages-used)
+    + [Frameworks, Libraries & Programs Used](#frameworks--libraries---programs-used)
+  * [Testing](#testing)
+    + [User Story Testing](#user-story-testing)
+      - [Visitor Goals](#visitor-goals)
+      - [Owner Goals](#owner-goals)
+    + [Device and Browser Testing](#device-and-browser-testing)
+    + [Problems overcome when testing](#problems-overcome-when-testing)
+    + [Unresolved issues](#unresolved-issues)
+    + [Testing results](#testing-results)
+      - [Final Chrome Dev tools](#final-chrome-dev-tools)
+      - [HTML Validation](#html-validation)
+      - [CSS Validation](#css-validation)
+  * [Deployment](#deployment)
     + [Making a Local Clone](#making-a-local-clone)
-- [Credits](#credits)
+  * [Credits](#credits)
     + [Code](#code)
     + [Bootstrap](#bootstrap)
     + [Images](#images)
     + [Text](#text)
     + [Acknowledgements](#acknowledgements)
 
-# UXD
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
-## Strategy
+## UXD
+
+### Strategy
 
 I am looking to attract as wide a range of visitors as possible. Most will be people who like dogs and may have an interest in making an adoption.
 
-### User Stories
+#### User Stories
 
 I am a visitor and I want:
 
@@ -85,7 +87,7 @@ I am the website owner and I want:
 1. Visitors to want to make a donation or adoption
 2. To receive feedback on the new site
 
-### Strategy Trade-off table 
+#### Strategy Trade-off table 
 
 Below I have created a trade-off table which directly addresses user stories above as well as further features which may not be viable now, but could be useful in future.
 
@@ -98,7 +100,7 @@ Provide means to donate online | 4 | 1
 Increase social media following | 4 | 4
 Blog/updates/mailing list | 3 | 2
 
-## Scope 
+### Scope 
 
 The primary objective of this site is to create and develop an online presence for the new charity. This means that it is initially created as a Minimum Viable Product. This allows us to begin with the most important aspects and expand from there. We can also test what works and what doesn't. Therefore it is also sensible to provide the opportunity for visitors to give feedback so we can improve existing features and find out what new features are needed.
 
@@ -111,7 +113,7 @@ The strategy trade-off table above helps us work out what we can and can't imple
 
 Allowing people to donate online and adding operational updates/blog is outside my current skillset, however these are important features which can be looked at in future.
 
-## Structure 
+### Structure 
 
 The website initially functions as a single scrolling page in a linear structure. This is the most simple and accessible way of navigation and information display. This is ideal for this site as we are looking to attract as wide a demographic of visitors as possible. We want visitors to be engaged immediately and for them not to be overwhelmed. There are nav links on the top of the screen, which take the user to different sections of the page. This will be fixed to the top of the screen when scrolling to enable the user to access them at any time.
 
@@ -123,41 +125,41 @@ On tablet and mobile devides the nav link is compressed to the hamburger style m
 
 Each page section has a clear function and purpose.
 
-### 1. Header - Logo, title & Navbar
+#### 1. Header - Logo, title & Navbar
 
 * The logo and title are on the left with the navbar on the right. The navbar is compressed to hamburger icon when using on tablet or mobile. This helps the visitor find their way around the website as well as providing useful links to our social media pages.
 
-### 2. Home - Hero Image 
+#### 2. Home - Hero Image 
 
 * Large hero image of happy dogs playing. There is a large button laid over the image which takes the user directly to the contact page with the text 'I want to adopt a dog'. The positive text and imagery instantly elicits a positive response from a visitor and makes the sites function clear.
 
-### 3. About Us
+#### 3. About Us
 
 * General information to the shelter - when/why/how we started and what our objectives are. This section is friendly and inviting to the reader. This provides the visitor with facts on who we are and what we do - reinforcing our legitimacy and providing human context.
 
-### 4. Meet the dogs!
+#### 4. Meet the dogs!
 
 * Pictures and information profile about our dogs. There is scope for expansion on this section - this can link to a further page with all of our dogs included but for now is just a showcase.
 
-### 5. Why Adopt?
+#### 5. Why Adopt?
 
 * This works as a brief info/advertising section to encourage people to adopt. There will also be photos of dogs to break the page up which keeps it visually appealing and triggers further positive emotions from the user.
 
-### 6. Get in touch
+#### 6. Get in touch
 
 * Contact form for all enquiries. This has standard inputs for name/email/telephone. There is a checkbox list for the user to specify the purpose of their enquiry as well as a large text field to add further questions/detail. There is also a text box informing the customer that we aim to respond to all enquiries within 24 hours of receipt, and requesting feedback on the site. Name/email/telephone/enquiry type fields are all required with the larger text box optional. This has a broad scope for the visitor who can make any enquiry needed from once place.
 
-### 7. Footer - Contact info and social
+#### 7. Footer - Contact info and social
 
 * As is standard, we include our phone number, email address and place address on the bottom of the page. This is located immediately below the contact section so these two sections can be seen as one larger one. Opening hours also included as well as the social media links again.
 
-## Skeleton
+### Skeleton
 
 This is a mobile first design using bootstrap to adjust column numbers/sizes and positioning. On mobile each column will fill the screen horizontally while on larger devices we can fit more features into each horizontal space. 
 
 [Wireframe for mobile, tablet and desktop](documentation/wireframe.pdf)
 
-## Surface
+### Surface
 
 I am using a simple colour palette generated on [Coolers.co](www.coolers.co) which will ensure visual clarity. I have opted for a green theme as this represents nature and the outdoors which suits dogs well. [Green is also the second favourite colour for both men and women as well as the easiest for the eye to process.](https://images.websitebuilderexpert.com/wp-content/uploads/2020/06/23005313/color-psychology.jpg)
 
@@ -169,9 +171,9 @@ The hero image with the playing Beagles is not only eye catching for a visitor, 
 
 My chosen font is Yusei Magic for the headings and Lato for the paragraphs. These are both taken from the Google Fonts collection. Yusei Magic has a handwritten feel and gives the viewer a friendly and homely impression. Lato pairs well with Yusei Magic, is easy to read and is a commonly used font online for larger of text for this reason.
 
-# Features
+## Features
 
-## Existing Features
+### Existing Features
 
 * Introduction to the charity
 * Photos and descriptions of our dogs
@@ -181,7 +183,7 @@ My chosen font is Yusei Magic for the headings and Lato for the paragraphs. Thes
 * Responsive design which makes the content attractive and easily read at any screen size
 * Navbar with scrollspy component which helps the user navigate around the page and know where on the page they are at any time
 
-## Future Features
+### Future Features
 
 * Payment/Donation/Sponsorship options
 * Blog
@@ -189,14 +191,14 @@ My chosen font is Yusei Magic for the headings and Lato for the paragraphs. Thes
 * Mailing list
 * Carousel component added to dog profile photos to show off more pictures of each dog
 
-# Technologies used
+## Technologies used
 
-## Languages Used
+### Languages Used
 
 * HTML5
 * CSS3
 
-## Frameworks, Libraries & Programs Used
+### Frameworks, Libraries & Programs Used
 
 * [Bootstrap v4.5](https://getbootstrap.com/docs/4.5/getting-started/introduction/) - This was used to assist with general responsiveness and styling and more specifically for the navbar, scrollspy, grid layout and contact form
 * [Fontawesome](https://fontawesome.com/) - This was used for all icons on the page. These were the Paw icon used in the header and dividers, the Home icon for the home button in the navbar and the bone icon used in the Why Adopt section
@@ -213,11 +215,11 @@ My chosen font is Yusei Magic for the headings and Lato for the paragraphs. Thes
 * [TinyPng](https://tinypng.com/) to compress images to smaller file sizes
 * [Markdown table of contents generator](https://ecotrust-canada.github.io/markdown-toc/) - Used to generate TOC in ReadMe file
 
-# Testing
+## Testing
 
-## User Story Testing
+### User Story Testing
 
-### Visitor Goals
+#### Visitor Goals
 
 1. I want to find out what this website is for
     - Visitors are instantly greeted by a large hero image of playing dogs.
@@ -277,7 +279,7 @@ My chosen font is Yusei Magic for the headings and Lato for the paragraphs. Thes
 
         ![Footer screenshot](documentation/UserStories6.jpg)
 
-### Owner Goals
+#### Owner Goals
 
 1. I want visitors to want to make a donation or adoption
     - We have plenty of pictures of happy and healthy looking dogs which should appeal to any visitor.
@@ -289,7 +291,7 @@ My chosen font is Yusei Magic for the headings and Lato for the paragraphs. Thes
         ![Contact form screenshot](documentation/UserStories3.jpg)
 
         
-## Device and Browser Testing
+### Device and Browser Testing
 
 * Chrome developer tools used throughout development to check usability on different devices/sizes. Devices "used" on dev tools include:
     - Moto G4 and Iphone 6/7/8 as these are fairly standard sizes for a mobile devices
@@ -308,7 +310,7 @@ My chosen font is Yusei Magic for the headings and Lato for the paragraphs. Thes
 
 * Browsers checked were Chrome, Firefox, Edge, Opera and Safari on all device types
 
-## Problems overcome when testing
+### Problems overcome when testing
 
 * I had difficulty changing the text colours and stylings on the navbar as these were defined by the bootstrap CSS file. Initially I added inline CSS to the index.html file to override the Bootstrap navbar-dark stylings. Later, I found a way to do this on the seperate CSS file using greater specificity to override the bootstrap stylings. The Chrome developer tools were very helpful in demonstrating exactly which elements needed to be overridden to get the look that I wanted.
 
@@ -324,14 +326,14 @@ My chosen font is Yusei Magic for the headings and Lato for the paragraphs. Thes
     - No aria label on home button which would cause screen readers to ignore this important element - rectified by adding aria label "home" to this element.
     - Tap targets not sized appropriately on mobile devices. This referred to the checkboxes in the contact form which were too small and spaced too close together making it more difficult for a mobile user to select these with their fingers. I fixed this by increasing the spacing on these elements.
 
-## Unresolved issues
+### Unresolved issues
 
 - Anchor elements on both the navbar and in main section had an insufficient colour contrast ratio according to Dev tools lighthouse tool. I user tested this with friends and family of various ages and nobody found this text to be problematic to read. I kept the colours as they were as they matched my colour palette nicely and there was no 
 better colour alternative. I also increased font weight on all anchor elements in the main section to make these stand out more.
 
-## Testing results
+### Testing results
 
-### Final Chrome Dev tools
+#### Final Chrome Dev tools
 
 * Mobile
 
@@ -341,7 +343,7 @@ better colour alternative. I also increased font weight on all anchor elements i
 
     ![Desktop](documentation/devtoolsdesktop.jpg)
 
-### HTML Validation
+#### HTML Validation
 
 * Initial HTML validator provided one warning as there was no heading in "Home" section.
     
@@ -351,13 +353,13 @@ better colour alternative. I also increased font weight on all anchor elements i
     
     ![HTML final results](documentation/htmlresults.jpg)
 
-### CSS Validation
+#### CSS Validation
 
 * CSS Validator found no errors.
 
     ![CSS final results](documentation/cssresults.jpg)
 
-# Deployment
+## Deployment
 
 The project was deployed to GitHub Pages using the following steps...
 
@@ -395,7 +397,7 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 
 Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
 
-# Credits
+## Credits
 
 ### Code
 
