@@ -154,13 +154,15 @@ My chosen font is Yusei Magic for the headings and Lato for the paragraphs. Thes
 * [Google Fonts](https://fonts.google.com/) - I used the fonts Yusei Magic and Lato
 * [Git](https://git-scm.com/) - Used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub
 * [Github](https://github.com/) - GitHub is used to store the projects code after being pushed from Git
-* [Webformatter.com](https://webformatter.com/html) - Used to beautify html
+* [Webformatter.com](https://webformatter.com/html) - Used to beautify HTML
+* [Freeformatter.com](https://www.freeformatter.com/css-beautifier.html) - used to beautify CSS
 * [Techsini Mockup Generator](http://techsini.com/multi-mockup/) - Used for website mockup
 * [Balsamiq](https://balsamiq.com/) - Balsamiq was used to create the [wireframe](documentation/wireframe.pdf) during the design process
 * MS Paint - Used to resize and crop images used
 * [Coolers](https://coolors.co/) to generate the colour pallette
 * [Colorcodehex](https://www.colorcodehex.com/hex-to-rgb.html) to convert hex colours to rgb colours for some translucent elements
 * [TinyPng](https://tinypng.com/) to compress images to smaller file sizes
+* [Markdown table of contents generator](https://ecotrust-canada.github.io/markdown-toc/) - Used to generate TOC in ReadMe file
 
 # Testing
 
@@ -223,7 +225,7 @@ My chosen font is Yusei Magic for the headings and Lato for the paragraphs. Thes
 8. I want to know where the charity is located
     - Our address is in the footer section as standard for most websites. Our opening hours are also visible in this section.
 
-        ![Footer screenshot](documentation/UserStories6.jpg)
+        ![Navbar and Footer screenshot](documentation/UserStories6.jpg)
 
 ### Owner Goals
 
@@ -386,8 +388,8 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Acknowledgements
 
-* Thanks to my mentor Aaron Sinnott for his helpful advice and pointers.
-* Thanks to the code institute Slack community for providing resources and tips.
+* Thanks to my mentor Aaron Sinnott for his advice and pointers as well as helping me find useful resources.
+* Thanks to the code institute Slack community for providing resources and tips as well as peer-reviewing the project.
 * Thanks to friends and family for taking the time to look at the site and give advice on both content and user stories.
 * [W3 Schools](https://www.w3schools.com/) and [Stackoverflow](https://stackoverflow.com/) were extremely useful when I forgot correct code syntax for both HTML and CSS elements and a quick search in either of these websites would usually give me the answer I needed.
 * Chrome Dev Tools was extremely useful for testing and adjusting CSS
