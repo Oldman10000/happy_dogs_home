@@ -237,7 +237,9 @@ My chosen font is Yusei Magic for the headings and Lato for the paragraphs. Thes
     - The navbar is fixed to the top of the page so the user can always navigate back to either a previous section or find the section they are looking for.
     - The navigation links have clear and unambiguous meanings so the user knows exactly what they are likely to find in each section.
     - If the user fills a section of the contact form incorrectly or leaves a required input blank, they will receive an error message when attempting to submit.
+    
     ![Contact form failure screenshot](documentation/UserStories5.jpg)
+
     - Once the form has been successfully submitted, the page refreshes back to the top so the user knows that it was successful.
 
 3. I want to see lots of pictures of happy dogs
@@ -271,9 +273,13 @@ My chosen font is Yusei Magic for the headings and Lato for the paragraphs. Thes
 7. I want to use the site on mobile/tablet/desktop
     - The site is built with responsive design in mind. Bootstrap grid is used for most elements in the main section to keep the layout tidy and easy to digest.
     - On smaller devices each element follows on from the next with pictures spaced between paragraph elements to keep visual appeal.
+
         ![Small device screenshot](documentation/UserStories8.jpg)
+
     - On larger devices elements tend to be more spaced out next to each other as this has greater visual clarity on a larger display.
+
         ![Large device screenshot](documentation/UserStories9.jpg)
+
 8. I want to know where the charity is located
     - Our address is in the footer section as standard for most websites. Our opening hours are also visible in this section.
 
@@ -284,13 +290,14 @@ My chosen font is Yusei Magic for the headings and Lato for the paragraphs. Thes
 1. I want visitors to want to make a donation or adoption
     - We have plenty of pictures of happy and healthy looking dogs which should appeal to any visitor.
     - There is a 'Why Adopt' section added, with information that is intended to encourage any visitor to make an adoption with us.
+
         ![Why Adopt Screenshot](documentation/UserStories7.jpg)
 
 2. I want to receive feedback on the new site
     - The option to provide feedback is requested and encouraged on the contact form section.
+    
         ![Contact form screenshot](documentation/UserStories3.jpg)
 
-        
 ### Device and Browser Testing
 
 * Chrome developer tools used throughout development to check usability on different devices/sizes. Devices "used" on dev tools include:
