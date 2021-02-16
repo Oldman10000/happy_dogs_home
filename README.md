@@ -269,10 +269,13 @@ My chosen font is Yusei Magic for the headings and Lato for the paragraphs. Thes
 * Chrome dev tools lighthouse run to check optimisation. The following issues were found and resolved
     - Images were of a large size and could be reduced. To remedy this I compressed all the images used on the page to quicken loading speeds.
     - Form checkbox inputs were labelled incorrectly - they all had the "for" attribute "gridCheck1" as they had been copy and pasted. These were all changed to match the appropriate label.
-    - Link colours had an insufficient contrast ratio - I added an underline element upon hovering to increase accessibility. I also increased font weight on all anchor elements in the main section to make these stand out more.
     - No aria label on home button which would cause screen readers to ignore this important element - rectified by adding aria label "home" to this element.
     - Tap targets not sized appropriately on mobile devices. This referred to the checkboxes in the contact form which were too small and spaced too close together making it more difficult for a mobile user to select these with their fingers. I fixed this by increasing the spacing on these elements.
 
+## Unresolved issues
+
+- Anchor elements on both the navbar and in main section had an insufficient colour contrast ratio according to Dev tools lighthouse tool. I user tested this with friends and family of various ages and nobody found this text to be problematic to read. I kept the colours as they were as they matched my colour palette nicely and there was no 
+better colour alternative. I also increased font weight on all anchor elements in the main section to make these stand out more.
 
 ## Testing results
 
