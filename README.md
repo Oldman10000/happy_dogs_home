@@ -2,9 +2,9 @@
 
 ## About
 
-This is my first Milestone Project for my Full Stack Software Development Diploma with Code Institute. I will be using HTML and CSS only, however some external Bootstrap CDN elements use JavaScript.
+This is my first Milestone Project for my Full Stack Software Development Diploma with Code Institute. I will be using HTML and CSS only, but I have included some external Bootstrap CDN elements, which use JavaScript.
 
-For this project I am creating a simple website for a fictional new shelter for dogs. The website is simply structured with only the most important information on show, however there is scope for future expansion.
+For this project, I am creating a simple website for a fictional new shelter for dogs. The website is simply structured with only key information on display, however there is scope for future expansion.
 
 The basic aim of the website is to introduce people to the charity and encourage visitors to adopt a dog.
 
@@ -77,7 +77,7 @@ I am a visitor and I want:
 2. The site to be easy to 'learn', navigate and use 
 3. To see lots of pictures of happy dogs
 4. To see what dogs are available
-5. To be able to easily contact the charity in order to make an adoption or make an enquiry
+5. To be able to easily contact the charity to make an adoption or make an enquiry
 6. To follow the charity on social media
 7. To use the site on mobile/tablet/desktop
 8. To know where the charity is located
@@ -89,7 +89,7 @@ I am the website owner and I want:
 
 #### Strategy Trade-off table 
 
-Below I have created a trade-off table which directly addresses user stories above as well as further features which may not be viable now, but could be useful in future.
+Below I have created a trade-off table that directly addresses user stories above as well as further features which may not be viable now, but could be useful in the future.
 
 Opportunity/Problem | Importance | Viability
 --------------------|------------|-----------
@@ -106,12 +106,12 @@ The primary objective of this site is to create and develop an online presence f
 
 The strategy trade-off table above helps us work out what we can and can't implement at this stage. It also tells us what the most important features are. These are as follows:
 
-1. Create online presence and introduce ourselves to visitors
+1. Create an online presence and introduce ourselves to visitors
 2. Show off our dogs
 3. Encourage people to adopt
 4. For visitors to be able to easily contact us for anything and provide feedback
 
-Allowing people to donate online and adding operational updates/blog is outside my current skillset, however these are important features which can be looked at in future.
+Allowing people to donate online and adding operational updates/blog is outside my current skill set, however these are important features which can be looked at in future.
 
 ### Structure 
 
@@ -119,19 +119,19 @@ The website initially functions as a single scrolling page in a linear structure
 
 The top navigation links will change colour when that section is active and upon hovering to provide the user with simple visual feedback on where they are and how to get to where they want to go within the site. There are also clear dividers and headings for each section.
 
-The submit button in the contact section also changes colour when hovering. If there is any issue with what has been submitted i.e. a required field has not been filled in then this information will be clear.
+The submit button in the contact section also changes colour when hovering. If there is an issue with what has been submitted i.e. a required field has not been filled in then this information will be clear.
 
-On tablet and mobile devides the nav link is compressed to the hamburger style menu as standard on smaller devices. It also includes social media links so these have maximum visiblity.
+On tablet and mobile devices the nav link is compressed to the hamburger style menu as standard on smaller devices. It also includes social media links so these have maximum visibility.
 
 Each page section has a clear function and purpose.
 
 #### 1. Header - Logo, title & Navbar
 
-* The logo and title are on the left with the navbar on the right. The navbar is compressed to hamburger icon when using on tablet or mobile. This helps the visitor find their way around the website as well as providing useful links to our social media pages.
+* The logo and title are on the left with the navbar on the right. The navbar is compressed to the hamburger icon when using on tablet or mobile. This helps the visitor find their way around the website as well as providing useful links to our social media pages.
 
 #### 2. Home - Hero Image 
 
-* Large hero image of happy dogs playing. There is a large button laid over the image which takes the user directly to the contact page with the text 'I want to adopt a dog'. The positive text and imagery instantly elicits a positive response from a visitor and makes the sites function clear.
+* Large hero image of happy dogs playing. There is a large button laid over the image which takes the user directly to the contact page with the text 'I want to adopt a dog'. The positive text and imagery instantly elicit a positive response from a visitor and make the site's function clear.
 
 #### 3. About Us
 
@@ -139,7 +139,7 @@ Each page section has a clear function and purpose.
 
 #### 4. Meet the dogs!
 
-* Pictures and information profile about our dogs. There is scope for expansion on this section - this can link to a further page with all of our dogs included but for now is just a showcase.
+* Pictures and information profile about our dogs. There is scope for expansion on this section - this can link to a further page with all of our dogs included but for now, is just a showcase.
 
 #### 5. Why Adopt?
 
@@ -147,17 +147,17 @@ Each page section has a clear function and purpose.
 
 #### 6. Get in touch
 
-* Contact form for all enquiries. This has standard inputs for name/email/telephone. There is a checkbox list for the user to specify the purpose of their enquiry as well as a large text field to add further questions/detail. There is also a text box informing the customer that we aim to respond to all enquiries within 24 hours of receipt, and requesting feedback on the site. Name/email/telephone/enquiry type fields are all required with the larger text box optional. This has a broad scope for the visitor who can make any enquiry needed from once place.
+* Contact form for all enquiries. This has standard inputs for name/email/telephone. There is a checkbox list for the user to specify the purpose of their enquiry as well as a large text field to add further questions/detail. There is also a text box informing the customer that we aim to respond to all enquiries within 24 hours of receipt and requesting feedback on the site. Name/email/telephone/enquiry type fields are all required with the larger text box optional. This has a broad scope for the visitor who can make any enquiry needed from one place.
 
 #### 7. Footer - Contact info and social
 
-* As is standard, we include our phone number, email address and place address on the bottom of the page. This is located immediately below the contact section so these two sections can be seen as one larger one. Opening hours also included as well as the social media links again.
+* As is standard, we include our phone number, email address, and place address on the bottom of the page. This is located immediately below the contact section so these two sections can be seen as one larger one. The opening hours are included, as well as the social media links again.
 
 ### Skeleton
 
-This is a mobile first design using bootstrap to adjust column numbers/sizes and positioning. On mobile each column will fill the screen horizontally while on larger devices we can fit more features into each horizontal space. 
+This is a mobile-first design using bootstrap to adjust column numbers/sizes and positioning. On mobile, each column will fill the screen horizontally while on larger devices we can fit more features into each horizontal space. 
 
-[Wireframe for mobile, tablet and desktop](documentation/wireframe.pdf)
+[Wireframe for mobile, tablet, and desktop](documentation/wireframe.pdf)
 
 ### Surface
 
@@ -165,11 +165,11 @@ I am using a simple colour palette generated on [Coolers.co](www.coolers.co) whi
 
 <!-- Coolors Palette Widget -->
 
-![Colour Palette](documentation/Dogs_Home_Pallette.png)
+![Colour Palette](documentation/Dogs_Home_Palette.png)
 
-The hero image with the playing Beagles is not only eye catching for a visitor, but the colours also generally match and pair well with the colour pallette used which gives the site good visual flow from the beginning.
+The hero image with the playing Beagles is not only eye-catching for a visitor, but the colours also generally match and pair well with the colour palette used which gives the site good visual flow from the beginning.
 
-My chosen font is Yusei Magic for the headings and Lato for the paragraphs. These are both taken from the Google Fonts collection. Yusei Magic has a handwritten feel and gives the viewer a friendly and homely impression. Lato pairs well with Yusei Magic, is easy to read and is a commonly used font online for larger of text for this reason.
+My chosen font is Yusei Magic for the headings and Lato for the paragraphs. These are both taken from the Google Fonts collection. Yusei Magic has a handwritten feel and gives the viewer a friendly and homely impression. Lato pairs well with Yusei Magic, is easy to read, and is a commonly used font online for larger bodies of text for this reason.
 
 ## Features
 
@@ -180,8 +180,8 @@ My chosen font is Yusei Magic for the headings and Lato for the paragraphs. Thes
 * 'Why Adopt' section encouraging people to adopt
 * Contact Us form and address/contact information
 * Social Media Links
-* Responsive design which makes the content attractive and easily read at any screen size
-* Navbar with scrollspy component which helps the user navigate around the page and know where on the page they are at any time
+* Responsive design, which makes the content attractive and easily read at any screen size
+* Navbar with a scrollspy component which helps the user navigate around the page and know where on the page they are at any time
 
 ### Future Features
 
@@ -200,20 +200,21 @@ My chosen font is Yusei Magic for the headings and Lato for the paragraphs. Thes
 
 ### Frameworks, Libraries & Programs Used
 
-* [Bootstrap v4.5](https://getbootstrap.com/docs/4.5/getting-started/introduction/) - This was used to assist with general responsiveness and styling and more specifically for the navbar, scrollspy, grid layout and contact form
-* [Fontawesome](https://fontawesome.com/) - This was used for all icons on the page. These were the Paw icon used in the header and dividers, the Home icon for the home button in the navbar and the bone icon used in the Why Adopt section
+* [Bootstrap v4.5](https://getbootstrap.com/docs/4.5/getting-started/introduction/) - This was used to assist with general responsiveness and styling and more specifically for the navbar, scrollspy, grid layout, and contact form
+* [Fontawesome](https://fontawesome.com/) - This was used for all icons on the page. These were the Paw icon used in the header and dividers, the Home icon for the home button in the navbar, and the bone icon used in the Why Adopt section
 * [Google Fonts](https://fonts.google.com/) - I used the fonts Yusei Magic and Lato
-* [Git](https://git-scm.com/) - Used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub
-* [Github](https://github.com/) - GitHub is used to store the projects code after being pushed from Git
+* [Git](https://git-scm.com/) - Used for version control by utilizing the Gitpod terminal to commit to Git and push to GitHub
+* [Github](https://github.com/) - GitHub is used to store the project's code after being pushed from Git
 * [Webformatter.com](https://webformatter.com/html) - Used to beautify HTML
 * [Freeformatter.com](https://www.freeformatter.com/css-beautifier.html) - used to beautify CSS
-* [Techsini Mockup Generator](http://techsini.com/multi-mockup/) - Used for website mockup
+* [Techsini Mockup Generator](http://techsini.com/multi-mockup/) - Used for the website mockup
 * [Balsamiq](https://balsamiq.com/) - Balsamiq was used to create the [wireframe](documentation/wireframe.pdf) during the design process
 * MS Paint - Used to resize and crop images used
 * [Coolers](https://coolors.co/) to generate the colour pallette
-* [Colorcodehex](https://www.colorcodehex.com/hex-to-rgb.html) to convert hex colours to rgb colours for some translucent elements
+* [Colorcodehex](https://www.colorcodehex.com/hex-to-rgb.html) to convert hex colours to RGB colours for some translucent elements
 * [TinyPng](https://tinypng.com/) to compress images to smaller file sizes
 * [Markdown table of contents generator](https://ecotrust-canada.github.io/markdown-toc/) - Used to generate TOC in ReadMe file
+* [Grammarly](grammarly.com) - Used to check spelling and grammar on the index.html file and the README.md file upon completion
 
 ## Testing
 
@@ -232,7 +233,7 @@ My chosen font is Yusei Magic for the headings and Lato for the paragraphs. Thes
     - The site is a linear structure with everything located on one page. This is easy to navigate on all devices.
     - The visitor has three options from the home page.
         - They can either scroll down into the 'About Us' section, the title of which is already visible.
-        - They can use the navigation bar/hamburger menu to find more sections in the site. This is located at the top of the page as standard.
+        - They can use the navigation bar/hamburger menu to find more sections on the site. This is located at the top of the page as standard.
         - They can hit the large button in the hero image "I WANT TO ADOPT A DOG". Not only is this a clear visual indicator of what the site is for, but also takes the user to the contact section where they can enquire about adopting a dog.
     - The navbar is fixed to the top of the page so the user can always navigate back to either a previous section or find the section they are looking for.
     - The navigation links have clear and unambiguous meanings so the user knows exactly what they are likely to find in each section.
@@ -248,12 +249,12 @@ My chosen font is Yusei Magic for the headings and Lato for the paragraphs. Thes
 
 4. I want to see what dogs are available
     - We have a 'Meet the Dogs' section advertising the dogs we currently have.
-    - Each dog has a profile section with a picture and short description.
+    - Each dog has a profile section with a picture and a short description.
     - Each profile section contains a link to the contact page so the visitor can quickly and easily enquire about a particular dog.
 
         ![Meet the dogs screenshot](documentation/UserStories2.jpg)
 
-5. I want to be easily able to contact the charity in order to make an adoption or make other enquiry.
+5. I want to be easily able to contact the charity to make an adoption or make other enquiry.
     - We have a contact section at the bottom of the page.
     - This section allows the user to enter their basic contact information (name, email, telephone). It also allows the user to specify what they want to ask about as well as add any further information in a textbox.
     - There are several links to this section on the page.
@@ -272,7 +273,7 @@ My chosen font is Yusei Magic for the headings and Lato for the paragraphs. Thes
 
 7. I want to use the site on mobile/tablet/desktop
     - The site is built with responsive design in mind. Bootstrap grid is used for most elements in the main section to keep the layout tidy and easy to digest.
-    - On smaller devices each element follows on from the next with pictures spaced between paragraph elements to keep visual appeal.
+    - On smaller devices, each element follows on from the next with pictures spaced between paragraph elements to keep visual appeal.
 
         ![Small device screenshot](documentation/UserStories8.jpg)
 
@@ -294,18 +295,18 @@ My chosen font is Yusei Magic for the headings and Lato for the paragraphs. Thes
         ![Why Adopt Screenshot](documentation/UserStories7.jpg)
 
 2. I want to receive feedback on the new site
-    - The option to provide feedback is requested and encouraged on the contact form section.
+    - The option to provide feedback is requested and encouraged in the contact form section.
     
         ![Contact form screenshot](documentation/UserStories3.jpg)
 
 ### Device and Browser Testing
 
 * Chrome developer tools used throughout development to check usability on different devices/sizes. Devices "used" on dev tools include:
-    - Moto G4 and Iphone 6/7/8 as these are fairly standard sizes for a mobile devices
-    - Iphone 5/SE and Samsung Galaxy Fold as these are relatively narrow mobile devices
-    - Pixel 2 XL and Iphone X as these are larger mobile devices
-    - Ipad and Surface Pro as these are standard sizes for tablet devices
-    - Ipad Pro as this is a higher resolution tablet device
+    - Moto G4 and Iphone 6/7/8, as these are fairly standard sizes for a mobile devices
+    - Iphone 5/SE and Samsung Galaxy Fold, as these are relatively narrow mobile devices
+    - Pixel 2 XL and Iphone X, as these are larger mobile devices
+    - Ipad and Surface Pro, as these are standard sizes for tablet devices
+    - Ipad Pro, as this is a higher resolution tablet device
 
 * Personal devices used to check usability after deployment
     - OnePlus Nord mobile phone
@@ -313,30 +314,30 @@ My chosen font is Yusei Magic for the headings and Lato for the paragraphs. Thes
     - Dell Inspiron 7577 laptop
     - Dell U2520D monitor
 
-* Friends and family asked to check usability on their Apple mobile, laptop, desktop and tablet devices, particularly to check usability on Safari browser
+* Friends and family asked to check usability on their Apple mobile, laptop, desktop, and tablet devices, particularly to check usability on Safari browser
 
-* Browsers checked were Chrome, Firefox, Edge, Opera and Safari on all device types
+* Browsers checked were Chrome, Firefox, Edge, Opera, and Safari on all device types
 
 ### Problems overcome when testing
 
-* I had difficulty changing the text colours and stylings on the navbar as these were defined by the bootstrap CSS file. Initially I added inline CSS to the index.html file to override the Bootstrap navbar-dark stylings. Later, I found a way to do this on the seperate CSS file using greater specificity to override the bootstrap stylings. The Chrome developer tools were very helpful in demonstrating exactly which elements needed to be overridden to get the look that I wanted.
+* I had difficulty changing the text colours and stylings on the navbar as these were defined by the bootstrap CSS file. Initially, I added inline CSS to the index.html file to override the Bootstrap navbar-dark stylings. Later, I found a way to do this on the separate CSS file using greater specificity to override the bootstrap stylings. The Chrome developer tools were very helpful in demonstrating exactly which elements needed to be overridden to get the look that I wanted.
 
 * I had difficulty figuring out a way for the descriptions of the dogs to appear in a modal box for mobile/tablet displays while appearing on the page below the image on desktop displays. I found out this could be done using JavaScript, however as this is outside the scope of this project I have amended the page design so that the descriptions of the dogs will now appear on the page below the images on all displays. The structure and wireframe have been amended accordingly.
 
-* There were issues with the navbar elements and photos in the "Why Adopt" section on Iphone 5 and Samsung Galaxy Fold screens when testing the site as these devices particularly narrow screens. I added media queries to the affected elements to make them smaller at screen widths below 372px to compensate for this. I used the same solution to fix an issue with the social media icons in the footer. For low width devices these would overrun into each other so a media query was added to reduce their size for smaller devices.
+* There were issues with the navbar elements and photos in the "Why Adopt" section on Iphone 5 and Samsung Galaxy Fold screens when testing the site as these devices particularly narrow screens. I added media queries to the affected elements to make them smaller at screen widths below 372px to compensate for this. I used the same solution to fix an issue with the social media icons in the footer. For devices with low width, these would overrun into each other, so a media query was added to reduce their size for smaller devices.
 
-* Navbar not transforming into hamburger icon for Ipad Pro. I noticed this was because the resolution for this device was slightly over the Bootstrap large container size, so changed the breakpoint of this element to xl to fix this. The same issue was occuring on the footer section where each element was displayed horizontally rather than vertically aligned as intended. Once again I fixed the breakpoint for each element to xl to ensure that it appeared as desired.
+* Navbar not transforming into hamburger icon for Ipad Pro. I noticed this was because the resolution for this device was slightly over the Bootstrap large container size, so changed the breakpoint of this element to xl to fix this. The same issue was occurring on the footer section where each element was displayed horizontally rather than vertically aligned as intended. Once again I fixed the breakpoint for each element to xl to ensure that it appeared as desired.
 
 * Chrome dev tools lighthouse run to check optimisation. The following issues were found and resolved
-    - Images were of a large size and could be reduced. To remedy this I compressed all the images used on the page to quicken loading speeds.
-    - Form checkbox inputs were labelled incorrectly - they all had the "for" attribute "gridCheck1" as they had been copy and pasted. These were all changed to match the appropriate label.
-    - No aria label on home button which would cause screen readers to ignore this important element - rectified by adding aria label "home" to this element.
-    - Tap targets not sized appropriately on mobile devices. This referred to the checkboxes in the contact form which were too small and spaced too close together making it more difficult for a mobile user to select these with their fingers. I fixed this by increasing the spacing on these elements.
+    - Image files were very large and could be reduced. To remedy this I compressed all the images used on the page to quicken loading speeds.
+    - Form checkbox inputs were labelled incorrectly - they all had the "for" attribute "gridCheck1" as they had been copied and pasted. These were all changed to match the appropriate label.
+    - No aria-label on the home button which would cause screen readers to ignore this important element - rectified by adding aria-label "home" to this element.
+    - Tap targets were not sized appropriately on mobile devices. This referred to the checkboxes in the contact form which were too small and spaced too close together making it more difficult for a mobile user to select these with their fingers. I fixed this by increasing the spacing on these elements.
 
 ### Unresolved issues
 
-- Anchor elements on both the navbar and in main section had an insufficient colour contrast ratio according to Dev tools lighthouse tool. I user tested this with friends and family of various ages and nobody found this text to be problematic to read. I kept the colours as they were as they matched my colour palette nicely and there was no 
-better colour alternative. I also increased font weight on all anchor elements in the main section to make these stand out more.
+- Anchor elements on both the navbar and in the main section had an insufficient colour contrast ratio according to Chrome dev tools lighthouse. I user tested this with friends and family of various ages and nobody found this text to be problematic to read. I kept the colours as they were as they matched my colour palette nicely and there was no 
+better colour alternative. I also increased font-weight on all anchor elements in the main section to make these stand out more.
 
 ### Testing results
 
@@ -352,7 +353,7 @@ better colour alternative. I also increased font weight on all anchor elements i
 
 #### HTML Validation
 
-* Initial HTML validator provided one warning as there was no heading in "Home" section.
+* The initial HTML validator displayed one warning as there was no heading in the "Home" section.
     
     ![HTML warning](documentation/htmlerror.jpg)
 
@@ -447,8 +448,8 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Acknowledgements
 
-* Thanks to my mentor Aaron Sinnott for his advice and pointers as well as helping me find useful resources.
-* Thanks to the code institute Slack community for providing resources and tips as well as peer-reviewing the project.
+* Thanks to my mentor Aaron Sinnott for his advice and pointers as well as for helping me find useful resources.
+* Thanks to the Code Institute Slack community for providing resources and tips as well as peer-reviewing the project.
 * Thanks to friends and family for taking the time to look at the site and give advice on both content and user stories.
 * [W3 Schools](https://www.w3schools.com/) and [Stackoverflow](https://stackoverflow.com/) were extremely useful when I forgot correct code syntax for both HTML and CSS elements and a quick search in either of these websites would usually give me the answer I needed.
 * Chrome Dev Tools was extremely useful for testing and adjusting CSS
